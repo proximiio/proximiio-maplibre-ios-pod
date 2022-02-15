@@ -26,7 +26,7 @@ Proximi.io MapLibre Indoor navigation library.
   s.ios.deployment_target = '13.0'
 
   s.dependency 'Proximiio'
-  s.dependency 'MapLibre'
+  s.dependency 'ProximiioMapView'
   s.dependency 'SwiftyJSON'
   s.dependency 'GRMustache.swift'
   s.dependency 'Alamofire'
