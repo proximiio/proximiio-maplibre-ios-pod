@@ -39,7 +39,7 @@
     "next_step_levelchanger_elevator": "Then in {{distance}} {{distanceUnit}} you will reach an elevator.",
     "next_step_levelchanger_escalator": "Then in {{distance}} {{distanceUnit}} you will reach an escalator.",
     "next_step_levelchanger_stairs": "Then in {{distance}} {{distanceUnit}} you will reach stairs.",
-    "passing_landmark": "You are passing {{#leftLandmarks}}{{landmark}}{{/leftLandmarks}} {{#hasLeftLandmarks}}on your left{{#hasRightLandmarks}}, {{/hasRightLandmarks}}{{/hasLeftLandmarks}} {{#rightLandmarks}}{{landmark}}{{/rightLandmarks}} {{#hasRightLandmarks}}on your right{{/hasRightLandmarks}}.",
+    "passing_landmark": "You are passing {{#leftLandmarks}}{{landmark}}{{/leftLandmarks}} {{#hasLeftLandmarks}}on your left{{#hasRightLandmarks}}, {{/hasRightLandmarks}}{{/hasLeftLandmarks}} {{#rightLandmarks}}{{landmark}}{{/rightLandmarks}} {{#hasRightLandmarks}}on your right{{/hasRightLandmarks}}. {{#leftLandmarks}}{{meta}}{{/leftLandmarks}} {{#rightLandmarks}}{{meta}}{{/rightLandmarks}}",
     "destination_arriving": "You are arriving at the destination.",
     "destination_arrived": "You arrived at the destination {{destination}} at {{hours}} o'clock.",
     "state_calculating": "Calculating.",

@@ -1,6 +1,6 @@
 class Wayfinding {
 
-    #configuration = {
+    configuration = {
         avoidElevators: false,
         avoidEscalators: false,
         avoidStaircases: false,
@@ -12,7 +12,7 @@ class Wayfinding {
         avoidHills: false
     };
 
-    #POI_TYPE = {
+    POI_TYPE = {
         ELEVATOR: 'elevator',
         ESCALATOR: 'escalator',
         STAIRCASE: 'staircase',
@@ -24,12 +24,12 @@ class Wayfinding {
         BARRIER: 'barrier'
     };
 
-    #ACCESSIBILITY_POI_TYPE = [
+    ACCESSIBILITY_POI_TYPE = [
         'door', 
         'ticket_gate'
     ];
 
-    #LEVEL_CHANGER_TYPE = [
+    LEVEL_CHANGER_TYPE = [
         'elevator', 
         'escalator', 
         'staircase', 
@@ -37,18 +37,18 @@ class Wayfinding {
         'hill'
     ];
 
-    #PATH_TYPE = 'path';
-    #LINE_STRING_TYPE = 'LineString';
+    PATH_TYPE = 'path';
+    LINE_STRING_TYPE = 'LineString';
 
-    #DIRECTION_UP = 'up';
-    #DIRECTION_DOWN = 'down';
+    DIRECTION_UP = 'up';
+    DIRECTION_DOWN = 'down';
 
-    #ROUTABLE_TYPE = ['MultiPolygon', 'Polygon'];
+    ROUTABLE_TYPE = ['MultiPolygon', 'Polygon'];
 
-    #UNIT_TYPE = 'meters';
+    UNIT_TYPE = 'meters';
 
-    #pathFixDistance = 1.0; // meters
-    #wallOffsetDistance = 0.5; // meters
+    pathFixDistance = 1.0; // meters
+    wallOffsetDistance = 0.5; // meters
 
     /**
      *
@@ -57,10 +57,10 @@ class Wayfinding {
     constructor(featureCollection) {
         const featureList = featureCollection.features;
 
-        const { minLevel, maxLevel } = this.#extractMinMaxLevel(featureList);
+        const { minLevel, maxLevel } = this.extractMinMaxLevel(featureList);
         if (minLevel === undefined) throw "No feature with level was supplied!";
 
-        const routableAreaFeatureList = featureList.filter(feature => feature.properties.routable && this.#ROUTABLE_TYPE.includes(feature.geometry.type));
+        const routableAreaFeatureList = featureList.filter(feature => feature.properties.routable && this.ROUTABLE_TYPE.includes(feature.geometry.type));
         let floorGeojsonMap = new Map();
         for (let level = minLevel; level <= maxLevel; level++) {
             let floorAreaFeature = routableAreaFeatureList.find(feature => feature.properties.level === level);
@@ -69,10 +69,10 @@ class Wayfinding {
         this.floorList = floorGeojsonMap;
 
         // Corridors
-        this.corridors = featureList.filter(feature => feature.properties.class === this.#PATH_TYPE && feature.geometry.type === this.#LINE_STRING_TYPE);
+        this.corridors = featureList.filter(feature => feature.properties.class === this.PATH_TYPE && feature.geometry.type === this.LINE_STRING_TYPE);
 
         // Level changers
-        let levelChangers = featureList.filter(feature => this.#LEVEL_CHANGER_TYPE.includes(feature.properties.type));
+        let levelChangers = featureList.filter(feature => this.LEVEL_CHANGER_TYPE.includes(feature.properties.type));
         levelChangers.forEach(levelChanger => {
             if (levelChanger.id === undefined) { levelChanger.id = levelChanger.properties.id; }
         });
@@ -89,9 +89,9 @@ class Wayfinding {
         this.levelChangerList = levelChangers;
 
         // Accessibility POI
-        this.accessibilityPoi = featureList.filter(feature => this.#ACCESSIBILITY_POI_TYPE.includes(feature.properties.type));
+        this.accessibilityPoi = featureList.filter(feature => this.ACCESSIBILITY_POI_TYPE.includes(feature.properties.type));
 
-        this.#rebuildData();
+        this.rebuildData();
     }
 
     /**
@@ -108,14 +108,14 @@ class Wayfinding {
      */
     setConfiguration(configuration, pathFixDistance = 1.0) {
         Object.keys(configuration).forEach(property => {
-            if (this.#configuration.hasOwnProperty(property)) {
-                this.#configuration[property] = configuration[property];
+            if (this.configuration.hasOwnProperty(property)) {
+                this.configuration[property] = configuration[property];
             }
         });
-        this.#pathFixDistance = pathFixDistance;
+        this.pathFixDistance = pathFixDistance;
     }
 
-    #extractMinMaxLevel(featureList) {
+    extractMinMaxLevel(featureList) {
         let minLevel = undefined;
         let maxLevel = undefined;
 
@@ -141,7 +141,7 @@ class Wayfinding {
         return { minLevel, maxLevel};
     }
 
-    #rebuildData() {
+    rebuildData() {
         let floorData = new Map();
         this.floorList.forEach((floor, level) => {
             let floorPoints = [];
@@ -205,12 +205,12 @@ class Wayfinding {
             inAreaPoiList.forEach(poi => {
                 // Generate points around POI to allow going around, but only if they are "within area
                 let detourPointList = [
-                    turf.destination(poi.geometry.coordinates, poi.properties.radius + this.#wallOffsetDistance, 0, {units: this.#UNIT_TYPE}),
-                    turf.destination(poi.geometry.coordinates, poi.properties.radius + this.#wallOffsetDistance, 60, {units: this.#UNIT_TYPE}),
-                    turf.destination(poi.geometry.coordinates, poi.properties.radius + this.#wallOffsetDistance, 120, {units: this.#UNIT_TYPE}),
-                    turf.destination(poi.geometry.coordinates, poi.properties.radius + this.#wallOffsetDistance, 180, {units: this.#UNIT_TYPE}),
-                    turf.destination(poi.geometry.coordinates, poi.properties.radius + this.#wallOffsetDistance, -120, {units: this.#UNIT_TYPE}),
-                    turf.destination(poi.geometry.coordinates, poi.properties.radius + this.#wallOffsetDistance, -60, {units: this.#UNIT_TYPE})
+                    turf.destination(poi.geometry.coordinates, poi.properties.radius + this.wallOffsetDistance, 0, {units: this.UNIT_TYPE}),
+                    turf.destination(poi.geometry.coordinates, poi.properties.radius + this.wallOffsetDistance, 60, {units: this.UNIT_TYPE}),
+                    turf.destination(poi.geometry.coordinates, poi.properties.radius + this.wallOffsetDistance, 120, {units: this.UNIT_TYPE}),
+                    turf.destination(poi.geometry.coordinates, poi.properties.radius + this.wallOffsetDistance, 180, {units: this.UNIT_TYPE}),
+                    turf.destination(poi.geometry.coordinates, poi.properties.radius + this.wallOffsetDistance, -120, {units: this.UNIT_TYPE}),
+                    turf.destination(poi.geometry.coordinates, poi.properties.radius + this.wallOffsetDistance, -60, {units: this.UNIT_TYPE})
                 ].filter(poi => floorData.areas.filter(area => turf.booleanContains(area, poi)).length > 0);
                 detourPointList.forEach(point => {
                     point.properties.level = floorLevel;
@@ -525,9 +525,9 @@ class Wayfinding {
                 // init neighbour
                 if (fixedPoint.properties.neighbours == undefined) fixedPoint.properties.neighbours = [];
                 // Set neighbourhood
-                if (direction === this.#DIRECTION_UP) {
+                if (direction === this.DIRECTION_UP) {
                     fixedPoint.properties.neighbours.push(...fixedPointList.filter(it => it.properties.level > fixedPoint.properties.level))
-                } else if (direction === this.#DIRECTION_DOWN) {
+                } else if (direction === this.DIRECTION_DOWN) {
                     fixedPoint.properties.neighbours.push(...fixedPointList.filter(it => it.properties.level < fixedPoint.properties.level))
                 } else {
                     fixedPoint.properties.neighbours.push(...fixedPointList.filter(it => it.properties.level !== fixedPoint.properties.level))
@@ -545,7 +545,7 @@ class Wayfinding {
 
     load(neighboursMap, wallOffsets) {
         this.neighbourMap = neighboursMap;
-        this.#rebuildData();
+        this.rebuildData();
         this.wallOffsets = wallOffsets;
         this.wallOffsetLineList = [];
         this._getPointList().forEach((point, index) =>{
@@ -696,8 +696,8 @@ class Wayfinding {
             // this.wallOffsetLineList.push(turf.lineString([point.geometry.coordinates, offsetPoint.geometry.coordinates]));
 
             // c) Generate two points M,N very close to point P
-            let pointM = turf.destination(point.geometry.coordinates, 0.01, bearing, {units: this.#UNIT_TYPE});
-            let pointN = turf.destination(point.geometry.coordinates, 0.01, oppositeBearing, {units: this.#UNIT_TYPE});
+            let pointM = turf.destination(point.geometry.coordinates, 0.01, bearing, {units: this.UNIT_TYPE});
+            let pointN = turf.destination(point.geometry.coordinates, 0.01, oppositeBearing, {units: this.UNIT_TYPE});
 
             // d) Test which point is contained within accessible area
             let containedPoint = null;
@@ -717,7 +717,7 @@ class Wayfinding {
             }
 
             // e) Generate point F at double the distance of wall offset
-            let pointF = turf.destination(point.geometry.coordinates, this.#wallOffsetDistance * 2, containedPoint === pointM ? bearing : oppositeBearing, {units: this.#UNIT_TYPE});
+            let pointF = turf.destination(point.geometry.coordinates, this.wallOffsetDistance * 2, containedPoint === pointM ? bearing : oppositeBearing, {units: this.UNIT_TYPE});
 
             // f) Test if PF intersects with any wall, update point F and PF to shortest available size
             let linePF = turf.lineString([point.geometry.coordinates, pointF.geometry.coordinates]);
@@ -800,8 +800,8 @@ class Wayfinding {
                 continue;
             }
 
-            let bearingAtoB = this.#bearing(pointA.geometry.coordinates, pointB.geometry.coordinates);
-            let bearingBtoC = this.#bearing(pointB.geometry.coordinates, pointC.geometry.coordinates);
+            let bearingAtoB = this.bearing(pointA.geometry.coordinates, pointB.geometry.coordinates);
+            let bearingBtoC = this.bearing(pointB.geometry.coordinates, pointC.geometry.coordinates);
             let bearingDiff = Math.abs(bearingAtoB - bearingBtoC);
             if (bearingDiff > Math.PI) {
                 bearingDiff -= Math.PI;
@@ -874,7 +874,7 @@ class Wayfinding {
             }
             if (turf.lineIntersect(line, wallOffsetLine).features.length > 0) {
                 let point = this.wallOffsets[index];
-                point.properties.distance = turf.pointToLineDistance(current.geometry.coordinates, wallOffsetLine, {units: this.#UNIT_TYPE});
+                point.properties.distance = turf.pointToLineDistance(current.geometry.coordinates, wallOffsetLine, {units: this.UNIT_TYPE});
                 intersectingWallOffsetPoints.push(point);
             }
         });
@@ -939,11 +939,11 @@ class Wayfinding {
 
             if (current === fixedEndPoint) {
                 let finalPath = this.reconstructPath(current);
-                if (fixedEndPoint !== endPoint && endPoint.properties.levels !== undefined && (!fixedEndPoint.properties.onCorridor || this._distance(fixedEndPoint, endPoint) > this.#pathFixDistance)) {
+                if (fixedEndPoint !== endPoint && endPoint.properties.levels !== undefined && (!fixedEndPoint.properties.onCorridor || this._distance(fixedEndPoint, endPoint) > this.pathFixDistance)) {
                     endPoint.properties.fixed = true
                     finalPath.push(endPoint);
                 }
-                if (fixedStartPoint !== startPoint && (!fixedStartPoint.properties.onCorridor || this._distance(fixedStartPoint, startPoint) > this.#pathFixDistance)) {
+                if (fixedStartPoint !== startPoint && (!fixedStartPoint.properties.onCorridor || this._distance(fixedStartPoint, startPoint) > this.pathFixDistance)) {
                     startPoint.properties.fixed = true
                     finalPath.unshift(startPoint);
                 }
@@ -993,8 +993,8 @@ class Wayfinding {
             neighbours = this._findNeighbours(point, startPoint, endPoint, levelPoints);
             neighbours = neighbours.filter(neighbourPoint => {
                 let level = point.properties.level;
-                let revolvingDoorBlock = this.#configuration.avoidRevolvingDoors && this._testAccessibilityPoiNeighbourhood(point, neighbourPoint, level, this.#POI_TYPE.REVOLVING_DOOR);
-                let ticketGateBlock = this.#configuration.avoidTicketGates && this._testAccessibilityPoiNeighbourhood(point, neighbourPoint, level, this.#POI_TYPE.TICKET_GATE);
+                let revolvingDoorBlock = this.configuration.avoidRevolvingDoors && this._testAccessibilityPoiNeighbourhood(point, neighbourPoint, level, this.POI_TYPE.REVOLVING_DOOR);
+                let ticketGateBlock = this.configuration.avoidTicketGates && this._testAccessibilityPoiNeighbourhood(point, neighbourPoint, level, this.POI_TYPE.TICKET_GATE);
                 return !revolvingDoorBlock && !ticketGateBlock;
             });
         } else {
@@ -1008,8 +1008,8 @@ class Wayfinding {
                         levelNeighbourMap[pointIndex].forEach(neighbourIndex => {
                             let neighbourPoint = points[neighbourIndex];
 
-                            let revolvingDoorBlock = this.#configuration.avoidRevolvingDoors && this._testAccessibilityPoiNeighbourhood(point, neighbourPoint, level, this.#POI_TYPE.REVOLVING_DOOR);
-                            let ticketGateBlock = this.#configuration.avoidTicketGates && this._testAccessibilityPoiNeighbourhood(point, neighbourPoint, level, this.#POI_TYPE.TICKET_GATE);
+                            let revolvingDoorBlock = this.configuration.avoidRevolvingDoors && this._testAccessibilityPoiNeighbourhood(point, neighbourPoint, level, this.POI_TYPE.REVOLVING_DOOR);
+                            let ticketGateBlock = this.configuration.avoidTicketGates && this._testAccessibilityPoiNeighbourhood(point, neighbourPoint, level, this.POI_TYPE.TICKET_GATE);
                             
                             if (!neighbours.includes(neighbourPoint) && (!revolvingDoorBlock && !ticketGateBlock)) {
                                 neighbours.push(neighbourPoint);
@@ -1025,8 +1025,8 @@ class Wayfinding {
                 || (point.properties.fixedPointMap != undefined && point.properties.fixedPointMap.has(endPoint.properties.level))
             ) {
 
-                let revolvingDoorBlock = this.#configuration.avoidRevolvingDoors && this._testAccessibilityPoiNeighbourhood(point, endPoint, endPoint.properties.level, this.#POI_TYPE.REVOLVING_DOOR);
-                let ticketGateBlock = this.#configuration.avoidTicketGates && this._testAccessibilityPoiNeighbourhood(point, endPoint, endPoint.properties.level, this.#POI_TYPE.TICKET_GATE);
+                let revolvingDoorBlock = this.configuration.avoidRevolvingDoors && this._testAccessibilityPoiNeighbourhood(point, endPoint, endPoint.properties.level, this.POI_TYPE.REVOLVING_DOOR);
+                let ticketGateBlock = this.configuration.avoidTicketGates && this._testAccessibilityPoiNeighbourhood(point, endPoint, endPoint.properties.level, this.POI_TYPE.TICKET_GATE);
 
                 if (!revolvingDoorBlock && !ticketGateBlock) {
 
@@ -1056,17 +1056,17 @@ class Wayfinding {
             }
         }
         return neighbours.filter(neighbour => {
-            if (this.#configuration.avoidElevators && neighbour.properties.type === this.#POI_TYPE.ELEVATOR) {
+            if (this.configuration.avoidElevators && neighbour.properties.type === this.POI_TYPE.ELEVATOR) {
                 return false;
-            } else if (this.#configuration.avoidEscalators && neighbour.properties.type === this.#POI_TYPE.ESCALATOR) {
+            } else if (this.configuration.avoidEscalators && neighbour.properties.type === this.POI_TYPE.ESCALATOR) {
                 return false;
-            } else if (this.#configuration.avoidStaircases && neighbour.properties.type === this.#POI_TYPE.STAIRCASE) {
+            } else if (this.configuration.avoidStaircases && neighbour.properties.type === this.POI_TYPE.STAIRCASE) {
                 return false;
-            } else if (this.#configuration.avoidNarrowPaths && neighbour.properties.narrowPath) {
+            } else if (this.configuration.avoidNarrowPaths && neighbour.properties.narrowPath) {
                 return false;
-            } else if (this.#configuration.avoidRamps && neighbour.properties.ramp) {
+            } else if (this.configuration.avoidRamps && neighbour.properties.ramp) {
                 return false;
-            } else if (this.#configuration.avoidHills && neighbour.properties.hill) {
+            } else if (this.configuration.avoidHills && neighbour.properties.hill) {
                 return false;
             }
             return true;
@@ -1085,11 +1085,11 @@ class Wayfinding {
     _testAccessibilityPoiNeighbourhood(pointA, pointB, level, accesibilityType) {
         // Filter out lines that intersect revolving door POIs.
         let skip = false;
-        if (accesibilityType === this.#POI_TYPE.REVOLVING_DOOR && this.#configuration.avoidRevolvingDoors) {
+        if (accesibilityType === this.POI_TYPE.REVOLVING_DOOR && this.configuration.avoidRevolvingDoors) {
             const line = turf.lineString([pointA.geometry.coordinates, pointB.geometry.coordinates]);
             const poiList = this.accessibilityPoi.filter(poi => (poi.properties.level === level && poi.properties.type === accesibilityType));
             poiList.forEach((poi) => {
-                const distance = turf.pointToLineDistance(poi.geometry.coordinates, line, { units: this.#UNIT_TYPE });
+                const distance = turf.pointToLineDistance(poi.geometry.coordinates, line, { units: this.UNIT_TYPE });
                 if (distance <= poi.properties.radius) {
                     skip = true;
                 }
@@ -1227,7 +1227,7 @@ class Wayfinding {
 
         let fromCoordinates = pointFrom.geometry.coordinates;
         let toCoordinates = pointTo.geometry.coordinates;
-        let bearing = this.#bearing(fromCoordinates, toCoordinates);
+        let bearing = this.bearing(fromCoordinates, toCoordinates);
         let intersections = 0;
         let intersectionPointList = [];
 
@@ -1243,8 +1243,8 @@ class Wayfinding {
                 inRange = true;
                 pointIsInAWall = true;
             } else {
-                let wBearingA = this.#bearing(fromCoordinates, wall[0].geometry.coordinates);
-                let wBearingB = this.#bearing(fromCoordinates, wall[1].geometry.coordinates);
+                let wBearingA = this.bearing(fromCoordinates, wall[0].geometry.coordinates);
+                let wBearingB = this.bearing(fromCoordinates, wall[1].geometry.coordinates);
                 if (wBearingA > wBearingB) {
                     let temp = wBearingA;
                     wBearingA = wBearingB;
@@ -1306,11 +1306,11 @@ class Wayfinding {
     }
 
     // Converts from degrees to radians.
-    #toRadians(degrees) {
+    toRadians(degrees) {
         return degrees * Math.PI / 180;
     };
 
-    #bearing(start, end) {
+    bearing(start, end) {
         // let hasCache = false;
         let endCache = this.bearingCache.get(start);
         if (endCache) {
@@ -1320,10 +1320,10 @@ class Wayfinding {
             }
         }
 
-        let startLng = this.#toRadians(start[0]);
-        let startLat = this.#toRadians(start[1]);
-        let destLng = this.#toRadians(end[0]);
-        let destLat = this.#toRadians(end[1]);
+        let startLng = this.toRadians(start[0]);
+        let startLat = this.toRadians(start[1]);
+        let destLng = this.toRadians(end[0]);
+        let destLat = this.toRadians(end[1]);
         let cosDestLat = Math.cos(destLat);
 
         let y = Math.sin(destLng - startLng) * cosDestLat;
@@ -1429,7 +1429,7 @@ class Wayfinding {
     _distance(pointA, pointB) {
         let levelChangePenalty = 0;
         if (pointB.properties.level !== pointA.properties.level) levelChangePenalty = 10;
-        return turf.distance(pointA, pointB, {units: this.#UNIT_TYPE}) + levelChangePenalty;
+        return turf.distance(pointA, pointB, {units: this.UNIT_TYPE}) + levelChangePenalty;
     }
 
     /**
@@ -1469,7 +1469,7 @@ class Wayfinding {
         let bestWall = null;
         let bestWallDistance = Infinity;
         floorData.wallFeatures.forEach(wall => {
-            let distance = turf.pointToLineDistance(point.geometry.coordinates, wall, {units: this.#UNIT_TYPE});
+            let distance = turf.pointToLineDistance(point.geometry.coordinates, wall, {units: this.UNIT_TYPE});
             if (distance < bestWallDistance) {
                 bestWall = wall;
                 bestWallDistance = distance;
@@ -1481,7 +1481,7 @@ class Wayfinding {
         let bestCorridorDistance = Infinity;
         levelCorridorFeatures.forEach(corridor => {
             let corridorIndex = this.corridorLineFeatures.indexOf(corridor);
-            let corridorDistance = turf.pointToLineDistance(point.geometry.coordinates, corridor, {units: this.#UNIT_TYPE});
+            let corridorDistance = turf.pointToLineDistance(point.geometry.coordinates, corridor, {units: this.UNIT_TYPE});
             if (corridorDistance < bestCorridorDistance) {
                 bestCorridorIndex = corridorIndex;
                 bestCorridorDistance = corridorDistance;
@@ -1540,7 +1540,7 @@ class Wayfinding {
                 // Create fixed point inside area
                 let nearestPoint = turf.nearestPointOnLine(bestWall, point);
                 let bearing = turf.bearing(point, nearestPoint);
-                fixedPoint =  turf.destination(point.geometry.coordinates, bestWallDistance + 0.05, bearing, {units: this.#UNIT_TYPE});
+                fixedPoint =  turf.destination(point.geometry.coordinates, bestWallDistance + 0.05, bearing, {units: this.UNIT_TYPE});
             }
 
             // Mark level of fixed point
