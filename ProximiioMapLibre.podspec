@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ProximiioMapLibre'
-  s.version          = '5.14.0'
+  s.version          = '5.15.0'
   s.summary          = 'Proximi.io MapLibre Indoor Support'
 
   s.description      = <<-DESC
