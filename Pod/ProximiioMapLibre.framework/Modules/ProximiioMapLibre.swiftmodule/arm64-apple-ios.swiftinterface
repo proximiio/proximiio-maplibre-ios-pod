@@ -606,6 +606,7 @@ extension ProximiioMapLibre.PIONavigation {
   public enum Action {
     case onProcess(node: ProximiioMapLibre.PIORouteNode?)
     case onRequestReRoute
+    case onFinished
   }
 }
 extension ProximiioMapLibre.PIONavigation {
