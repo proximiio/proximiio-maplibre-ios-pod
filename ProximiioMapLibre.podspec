@@ -20,9 +20,6 @@ Proximi.io MapLibre Indoor navigation library.
   s.author           = { 'x-oauth-basic' => 'matej.drzik@quanto.sk' }
   s.source           = { :git => 'https://github.com/proximiio/proximiio-maplibre-ios-pod.git', :tag => s.version.to_s }
 
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-
   s.ios.deployment_target = '13.0'
 
   s.dependency 'Proximiio'
@@ -33,7 +30,5 @@ Proximi.io MapLibre Indoor navigation library.
 
   s.frameworks = 'UIKit', 'Network'
 
-  s.swift_version = '5.5'
-
-  s.vendored_frameworks = 'Pod/ProximiioMapLibre.framework'
+  s.vendored_frameworks = 'Pod/ProximiioMapLibre.xcframework'
 end
