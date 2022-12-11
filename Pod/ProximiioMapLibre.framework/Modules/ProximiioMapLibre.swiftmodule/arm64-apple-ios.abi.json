@@ -28880,1953 +28880,1953 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORoute.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORoute.swift",
       "kind": "Array",
       "offset": 291,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORoute.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORoute.swift",
       "kind": "BooleanLiteral",
       "offset": 464,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORoute.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORoute.swift",
       "kind": "Array",
       "offset": 517,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORoute.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORoute.swift",
       "kind": "StringLiteral",
       "offset": 222,
       "length": 8,
       "value": "\"ProximiioMapLibre.PIORoute\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Navigation\/PIOPOIType.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIOPOIType.swift",
       "kind": "StringLiteral",
       "offset": 267,
       "length": 13,
       "value": "\"ticket_gate\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Navigation\/PIOPOIType.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIOPOIType.swift",
       "kind": "StringLiteral",
       "offset": 267,
       "length": 13,
       "value": "\"ticket_gate\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceFeatureManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceFeatureManager.swift",
       "kind": "FloatLiteral",
       "offset": 341,
       "length": 3,
       "value": "4.0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Network\/PIOFailover.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Network\/PIOFailover.swift",
       "kind": "IntegerLiteral",
       "offset": 439,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Network\/PIOFailover.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Network\/PIOFailover.swift",
       "kind": "StringLiteral",
       "offset": 559,
       "length": 24,
       "value": "\"https:\/\/api.proximi.fi\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Source\/ProximiioGeoJSONFloorplanSource.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Source\/ProximiioGeoJSONFloorplanSource.swift",
       "kind": "FloatLiteral",
       "offset": 412,
       "length": 4,
       "value": "28.0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Source\/ProximiioGeoJSONFloorplanSource.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Source\/ProximiioGeoJSONFloorplanSource.swift",
       "kind": "IntegerLiteral",
       "offset": 706,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Source\/ProximiioGeoJSONFloorplanSource.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Source\/ProximiioGeoJSONFloorplanSource.swift",
       "kind": "IntegerLiteral",
       "offset": 768,
       "length": 2,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Source\/PIOGeoJSONSource.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Source\/PIOGeoJSONSource.swift",
       "kind": "StringLiteral",
       "offset": 223,
       "length": 16,
       "value": "\"ProximiioMapLibre.PIOGeoJSONSource\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
       "kind": "IntegerLiteral",
       "offset": 314,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
       "kind": "IntegerLiteral",
       "offset": 609,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
       "kind": "IntegerLiteral",
       "offset": 1486,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
       "kind": "IntegerLiteral",
       "offset": 1744,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
       "kind": "IntegerLiteral",
       "offset": 2002,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
       "kind": "StringLiteral",
       "offset": 2298,
       "length": 17,
       "value": "\"magneticHeading\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
       "kind": "StringLiteral",
       "offset": 2349,
       "length": 13,
       "value": "\"trueHeading\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
       "kind": "StringLiteral",
       "offset": 2400,
       "length": 17,
       "value": "\"headingAccuracy\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
       "kind": "StringLiteral",
       "offset": 2449,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
       "kind": "StringLiteral",
       "offset": 2484,
       "length": 3,
       "value": "\"x\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
       "kind": "StringLiteral",
       "offset": 2511,
       "length": 3,
       "value": "\"y\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteHeading.swift",
       "kind": "StringLiteral",
       "offset": 2538,
       "length": 3,
       "value": "\"z\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 1925,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 1965,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 2008,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 2051,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 2095,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 2134,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 2182,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 2226,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 2271,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 4566,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 5100,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 316,
       "length": 21,
       "value": "\"ProximiioMapLibre.PIORouteConfiguration\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/Osrm\/PIOManeuver.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/Osrm\/PIOManeuver.swift",
       "kind": "StringLiteral",
       "offset": 221,
       "length": 11,
       "value": "\"ProximiioMapLibre.PIOManeuver\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Telemetry\/PIOTelemetry.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Telemetry\/PIOTelemetry.swift",
       "kind": "BooleanLiteral",
       "offset": 497,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOAnnotation.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOAnnotation.swift",
       "kind": "IntegerLiteral",
       "offset": 244,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOAnnotation.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOAnnotation.swift",
       "kind": "BooleanLiteral",
       "offset": 305,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOTurfPolygon.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOTurfPolygon.swift",
       "kind": "BooleanLiteral",
       "offset": 1192,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
       "kind": "StringLiteral",
       "offset": 363,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
       "kind": "StringLiteral",
       "offset": 478,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
       "kind": "BooleanLiteral",
       "offset": 540,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
       "kind": "BooleanLiteral",
       "offset": 582,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
       "kind": "BooleanLiteral",
       "offset": 625,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
       "kind": "BooleanLiteral",
       "offset": 669,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
       "kind": "BooleanLiteral",
       "offset": 714,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
       "kind": "BooleanLiteral",
       "offset": 753,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
       "kind": "BooleanLiteral",
       "offset": 797,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
       "kind": "BooleanLiteral",
       "offset": 842,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
       "kind": "IntegerLiteral",
       "offset": 915,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
       "kind": "StringLiteral",
       "offset": 950,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
       "kind": "StringLiteral",
       "offset": 984,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Telemetry\/PIOTelemetryWayfind.swift",
       "kind": "BooleanLiteral",
       "offset": 1012,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
       "kind": "FloatLiteral",
       "offset": 433,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
       "kind": "FloatLiteral",
       "offset": 471,
       "length": 4,
       "value": "25.0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
       "kind": "FloatLiteral",
       "offset": 2936,
       "length": 4,
       "value": "90.0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
       "kind": "FloatLiteral",
       "offset": 2983,
       "length": 4,
       "value": "14.0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/Osrm\/PIORouteResponse.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/Osrm\/PIORouteResponse.swift",
       "kind": "StringLiteral",
       "offset": 184,
       "length": 16,
       "value": "\"ProximiioMapLibre.PIORouteResponse\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Current.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Current.swift",
       "kind": "StringLiteral",
       "offset": 241,
       "length": 4,
       "value": "\"en\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/PIORouter.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouter.swift",
       "kind": "StringLiteral",
       "offset": 17072,
       "length": 6,
       "value": "\"ProximiioMapLibre.Result\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
       "kind": "FloatLiteral",
       "offset": 1057,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
       "kind": "FloatLiteral",
       "offset": 1103,
       "length": 3,
       "value": "4.5"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
       "kind": "BooleanLiteral",
       "offset": 1134,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
       "kind": "BooleanLiteral",
       "offset": 4533,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
       "kind": "BooleanLiteral",
       "offset": 7264,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Network\/PIOApiUrl.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Network\/PIOApiUrl.swift",
       "kind": "StringLiteral",
       "offset": 320,
       "length": 24,
       "value": "\"https:\/\/api.proximi.fi\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
       "kind": "Array",
       "offset": 475,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
       "kind": "BooleanLiteral",
       "offset": 677,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
       "kind": "BooleanLiteral",
       "offset": 751,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
       "kind": "BooleanLiteral",
       "offset": 790,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
       "kind": "FloatLiteral",
       "offset": 834,
       "length": 4,
       "value": "0.78"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
       "kind": "IntegerLiteral",
       "offset": 881,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
       "kind": "IntegerLiteral",
       "offset": 954,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
       "kind": "BooleanLiteral",
       "offset": 9376,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateData.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateData.swift",
       "kind": "StringLiteral",
       "offset": 206,
       "length": 10,
       "value": "\"ProximiioMapLibre.PIOHeading\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateData.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateData.swift",
       "kind": "StringLiteral",
       "offset": 437,
       "length": 18,
       "value": "\"ProximiioMapLibre.PIORouteUpdateData\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOLandmarkSide.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOLandmarkSide.swift",
       "kind": "IntegerLiteral",
       "offset": 251,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOLandmarkSide.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOLandmarkSide.swift",
       "kind": "IntegerLiteral",
       "offset": 251,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOLandmarkSide.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOLandmarkSide.swift",
       "kind": "StringLiteral",
       "offset": 279,
       "length": 11,
       "value": "\"ProximiioMapLibre.PIOLandmark\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/Osrm\/PIOOsrmRoute.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/Osrm\/PIOOsrmRoute.swift",
       "kind": "StringLiteral",
       "offset": 230,
       "length": 12,
       "value": "\"ProximiioMapLibre.PIOOsrmRoute\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Wayfinder\/PIOWayfindingOptions.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Wayfinder\/PIOWayfindingOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 276,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Wayfinder\/PIOWayfindingOptions.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Wayfinder\/PIOWayfindingOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 320,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Wayfinder\/PIOWayfindingOptions.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Wayfinder\/PIOWayfindingOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 365,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Wayfinder\/PIOWayfindingOptions.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Wayfinder\/PIOWayfindingOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 411,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Wayfinder\/PIOWayfindingOptions.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Wayfinder\/PIOWayfindingOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 451,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Wayfinder\/PIOWayfindingOptions.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Wayfinder\/PIOWayfindingOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 500,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Wayfinder\/PIOWayfindingOptions.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Wayfinder\/PIOWayfindingOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 545,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Wayfinder\/PIOWayfindingOptions.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Wayfinder\/PIOWayfindingOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 591,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Wayfinder\/PIOWayfindingOptions.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Wayfinder\/PIOWayfindingOptions.swift",
       "kind": "FloatLiteral",
       "offset": 636,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Wayfinder\/PIOWayfindingOptions.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Wayfinder\/PIOWayfindingOptions.swift",
       "kind": "StringLiteral",
       "offset": 206,
       "length": 20,
       "value": "\"ProximiioMapLibre.PIOWayfindingOptions\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 249,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 256,
       "length": 10,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 268,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 276,
       "length": 8,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 313,
       "length": 10,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 325,
       "length": 10,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 337,
       "length": 8,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 355,
       "length": 11,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 368,
       "length": 11,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 381,
       "length": 9,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 421,
       "length": 10,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 433,
       "length": 11,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 446,
       "length": 8,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 464,
       "length": 12,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 478,
       "length": 13,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 493,
       "length": 10,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 513,
       "length": 12,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 527,
       "length": 13,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 542,
       "length": 10,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 249,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 256,
       "length": 10,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 268,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 276,
       "length": 8,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 313,
       "length": 10,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 325,
       "length": 10,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 337,
       "length": 8,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 355,
       "length": 11,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 368,
       "length": 11,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 381,
       "length": 9,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 421,
       "length": 10,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 433,
       "length": 11,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 446,
       "length": 8,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 464,
       "length": 12,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 478,
       "length": 13,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 493,
       "length": 10,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 513,
       "length": 12,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 527,
       "length": 13,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 542,
       "length": 10,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOTurfRing.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOTurfRing.swift",
       "kind": "BooleanLiteral",
       "offset": 866,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Model\/ProximiioMapboxConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Model\/ProximiioMapboxConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 326,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Model\/ProximiioMapboxConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Model\/ProximiioMapboxConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 376,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Model\/ProximiioMapboxConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Model\/ProximiioMapboxConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 413,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Model\/ProximiioMapboxConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Model\/ProximiioMapboxConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 458,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Model\/ProximiioMapboxConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Model\/ProximiioMapboxConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 30,
       "value": "\"ProximiioMapLibre.ProximiioMapLibreConfiguration\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
       "offset": 370,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
       "offset": 387,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
       "offset": 370,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
       "offset": 387,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
       "offset": 480,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
       "offset": 480,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
       "offset": 1989,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
       "offset": 2033,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
       "offset": 2393,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
       "offset": 2534,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "Dictionary",
       "offset": 2607,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "StringLiteral",
       "offset": 2821,
       "length": 4,
       "value": "\"v5\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
       "offset": 3852,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "Array",
       "offset": 4385,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
       "offset": 4500,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
       "offset": 26457,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
       "offset": 26484,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
       "offset": 29345,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
       "offset": 29366,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
       "offset": 30065,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
       "offset": 30086,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
       "offset": 30635,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/ProximiioMapLibre.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
       "offset": 30656,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOConstants.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOConstants.swift",
       "kind": "StringLiteral",
       "offset": 311,
       "length": 28,
       "value": "\"ProximiioLocationDidChange\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOConstants.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOConstants.swift",
       "kind": "StringLiteral",
       "offset": 404,
       "length": 22,
       "value": "\"ProximiioFloorChange\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOConstants.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOConstants.swift",
       "kind": "StringLiteral",
       "offset": 471,
       "length": 36,
       "value": "\"proximiio-geojson_floorplan-source\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOConstants.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOConstants.swift",
       "kind": "StringLiteral",
       "offset": 539,
       "length": 24,
       "value": "\"proximiio-floors-layer\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOConstants.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOConstants.swift",
       "kind": "StringLiteral",
       "offset": 600,
       "length": 30,
       "value": "\"proximiio-floors-lines-layer\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOConstants.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOConstants.swift",
       "kind": "StringLiteral",
       "offset": 665,
       "length": 28,
       "value": "\"proximiio-base_floor-layer\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOConstants.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOConstants.swift",
       "kind": "StringLiteral",
       "offset": 722,
       "length": 22,
       "value": "\"proximiio-road-layer\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOConstants.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOConstants.swift",
       "kind": "StringLiteral",
       "offset": 774,
       "length": 23,
       "value": "\"proximiio-areas-layer\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOConstants.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOConstants.swift",
       "kind": "StringLiteral",
       "offset": 834,
       "length": 30,
       "value": "\"proximiio_parking_base-layer\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOConstants.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOConstants.swift",
       "kind": "StringLiteral",
       "offset": 894,
       "length": 23,
       "value": "\"proximiio-shops-layer\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOConstants.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOConstants.swift",
       "kind": "StringLiteral",
       "offset": 947,
       "length": 23,
       "value": "\"proximiio-rooms-layer\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOConstants.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOConstants.swift",
       "kind": "StringLiteral",
       "offset": 1000,
       "length": 23,
       "value": "\"proximiio-holes-layer\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOConstants.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOConstants.swift",
       "kind": "StringLiteral",
       "offset": 1053,
       "length": 23,
       "value": "\"proximiio-walls-layer\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOConstants.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOConstants.swift",
       "kind": "StringLiteral",
       "offset": 1114,
       "length": 31,
       "value": "\"proximiio-levelchangers-layer\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOConstants.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOConstants.swift",
       "kind": "StringLiteral",
       "offset": 1190,
       "length": 38,
       "value": "\"proximiio-polygons_above_paths-layer\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/PIOConstants.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOConstants.swift",
       "kind": "StringLiteral",
       "offset": 1270,
       "length": 34,
       "value": "\"proximiio-raster_floorplan-layer\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Model\/PIOWaypoint.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Model\/PIOWaypoint.swift",
       "kind": "StringLiteral",
       "offset": 230,
       "length": 14,
       "value": "\"ProximiioMapLibre.SimpleWaypoint\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Model\/PIOWaypoint.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Model\/PIOWaypoint.swift",
       "kind": "StringLiteral",
       "offset": 422,
       "length": 16,
       "value": "\"ProximiioMapLibre.VariableWaypoint\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "IntegerLiteral",
       "offset": 440,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "IntegerLiteral",
       "offset": 450,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "Dictionary",
       "offset": 799,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "BooleanLiteral",
       "offset": 1721,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "BooleanLiteral",
       "offset": 30083,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "BooleanLiteral",
       "offset": 30271,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
       "offset": 352,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
       "offset": 461,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
       "offset": 559,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "FloatLiteral",
       "offset": 614,
       "length": 4,
       "value": "25.0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "IntegerLiteral",
       "offset": 669,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
       "offset": 826,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
       "offset": 861,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
       "offset": 901,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
       "offset": 954,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
       "offset": 989,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "FloatLiteral",
       "offset": 1098,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "IntegerLiteral",
       "offset": 1163,
       "length": 4,
       "value": "5000"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
       "offset": 1204,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
       "offset": 1375,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
       "offset": 1398,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
       "offset": 4664,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
       "offset": 4736,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
       "offset": 4814,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
       "offset": 4849,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
       "offset": 4919,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
       "offset": 5033,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
       "offset": 8066,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
       "offset": 10756,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIOLevelChangerData.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIOLevelChangerData.swift",
       "kind": "StringLiteral",
       "offset": 222,
       "length": 19,
       "value": "\"ProximiioMapLibre.PIOLevelChangerData\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/Osrm\/PIOLeg.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/Osrm\/PIOLeg.swift",
       "kind": "StringLiteral",
       "offset": 217,
       "length": 6,
       "value": "\"ProximiioMapLibre.PIOLeg\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Telemetry\/PIOTelemetrySearch.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Telemetry\/PIOTelemetrySearch.swift",
       "kind": "IntegerLiteral",
       "offset": 374,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Telemetry\/PIOTelemetrySearch.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Telemetry\/PIOTelemetrySearch.swift",
       "kind": "StringLiteral",
       "offset": 402,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Navigation\/PIONavigationMapboxPathManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigationMapboxPathManager.swift",
       "kind": "BooleanLiteral",
       "offset": 492,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Navigation\/PIONavigationMapboxPathManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigationMapboxPathManager.swift",
       "kind": "IntegerLiteral",
       "offset": 521,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Navigation\/PIONavigationMapboxPathManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigationMapboxPathManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1234,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Navigation\/PIONavigationMapboxPathManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigationMapboxPathManager.swift",
       "kind": "StringLiteral",
       "offset": 2406,
       "length": 7,
       "value": "\"route\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Navigation\/PIONavigationMapboxPathManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigationMapboxPathManager.swift",
       "kind": "StringLiteral",
       "offset": 2745,
       "length": 7,
       "value": "\"route\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/Osrm\/PIOStep.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/Osrm\/PIOStep.swift",
       "kind": "StringLiteral",
       "offset": 218,
       "length": 7,
       "value": "\"ProximiioMapLibre.PIOStep\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Wayfinder\/PIOWayfinder2.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Wayfinder\/PIOWayfinder2.swift",
       "kind": "StringLiteral",
       "offset": 326,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Wayfinder\/PIOWayfinder2.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Wayfinder\/PIOWayfinder2.swift",
       "kind": "StringLiteral",
       "offset": 368,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Filtering\/PIOFilter.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Filtering\/PIOFilter.swift",
       "kind": "StringLiteral",
       "offset": 213,
       "length": 9,
       "value": "\"custom:\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
       "kind": "StringLiteral",
       "offset": 185,
       "length": 17,
       "value": "\"ProximiioMapLibre.PIOUnitConversion\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
       "kind": "StringLiteral",
       "offset": 1162,
       "length": 8,
       "value": "\"meters\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
       "kind": "FloatLiteral",
       "offset": 1196,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
       "kind": "FloatLiteral",
       "offset": 1219,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
       "kind": "IntegerLiteral",
       "offset": 1234,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
       "kind": "StringLiteral",
       "offset": 1266,
       "length": 12,
       "value": "\"kilometers\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
       "kind": "FloatLiteral",
       "offset": 1304,
       "length": 5,
       "value": "0.001"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
       "kind": "FloatLiteral",
       "offset": 1329,
       "length": 5,
       "value": "800.0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
       "kind": "IntegerLiteral",
       "offset": 1346,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
       "kind": "StringLiteral",
       "offset": 1378,
       "length": 12,
       "value": "\"kilometers\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
       "kind": "FloatLiteral",
       "offset": 1416,
       "length": 5,
       "value": "0.001"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
       "kind": "FloatLiteral",
       "offset": 1441,
       "length": 6,
       "value": "2000.0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
       "kind": "IntegerLiteral",
       "offset": 1459,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
       "kind": "StringLiteral",
       "offset": 1546,
       "length": 9,
       "value": "\"ProximiioMapLibre.UnitStage\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
       "kind": "StringLiteral",
       "offset": 2169,
       "length": 16,
       "value": "\"ProximiioMapLibre.ConversionResult\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
       "kind": "FloatLiteral",
       "offset": 2881,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOUnitConversion.swift",
       "kind": "IntegerLiteral",
       "offset": 2907,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOAudioManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOAudioManager.swift",
       "kind": "BooleanLiteral",
       "offset": 624,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOAudioManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOAudioManager.swift",
       "kind": "StringLiteral",
       "offset": 665,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOAudioManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOAudioManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1301,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOAudioManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOAudioManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1720,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Utils\/PIOAudioManager.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOAudioManager.swift",
       "kind": "BooleanLiteral",
       "offset": 2115,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "IntegerLiteral",
       "offset": 596,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
       "offset": 629,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "FloatLiteral",
       "offset": 784,
       "length": 3,
       "value": "4.0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "FloatLiteral",
       "offset": 840,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
       "offset": 896,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
       "offset": 946,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "IntegerLiteral",
       "offset": 5537,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
       "offset": 6008,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
       "offset": 6044,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
       "offset": 6085,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "IntegerLiteral",
       "offset": 6212,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
       "offset": 6848,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
       "offset": 9246,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteNode.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteNode.swift",
       "kind": "StringLiteral",
       "offset": 768,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteNode.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteNode.swift",
       "kind": "StringLiteral",
       "offset": 232,
       "length": 12,
       "value": "\"ProximiioMapLibre.PIORouteNode\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteSplit.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteSplit.swift",
       "kind": "StringLiteral",
       "offset": 213,
       "length": 13,
       "value": "\"ProximiioMapLibre.PIORouteSplit\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
       "offset": 233,
       "length": 13,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
       "offset": 248,
       "length": 13,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
       "offset": 263,
       "length": 8,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
       "offset": 273,
       "length": 8,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
       "offset": 283,
       "length": 16,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
       "offset": 326,
       "length": 3,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
       "offset": 331,
       "length": 6,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
       "offset": 339,
       "length": 4,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
       "offset": 345,
       "length": 9,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
       "offset": 233,
       "length": 13,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
       "offset": 248,
       "length": 13,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
       "offset": 263,
       "length": 8,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
       "offset": 273,
       "length": 8,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
       "offset": 283,
       "length": 16,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
       "offset": 326,
       "length": 3,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
       "offset": 331,
       "length": 6,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
       "offset": 339,
       "length": 4,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
       "offset": 345,
       "length": 9,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIORouteStep.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteStep.swift",
       "kind": "StringLiteral",
       "offset": 212,
       "length": 12,
       "value": "\"ProximiioMapLibre.PIORouteStep\""
     },
     {
-      "filePath": "\/Users\/matteocrippa\/Repositories\/Proximiio\/proximiio-mapbox-ios\/ProximiioMapLibre\/Routing\/Data\/PIOTurnData.swift",
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIOTurnData.swift",
       "kind": "StringLiteral",
       "offset": 188,
       "length": 11,
