@@ -1,0 +1,4 @@
+framework module ProximiioMapLibre {
+  header "ProximiioMapLibre-Swift.h"
+  requires objc
+}
