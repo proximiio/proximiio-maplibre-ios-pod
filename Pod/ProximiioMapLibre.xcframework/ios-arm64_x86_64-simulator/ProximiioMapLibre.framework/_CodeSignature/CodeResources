@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		yLXAY7YQ5rPMaR7XMbU1lYrGd9o=
+		W4ZpKgT7VbsBydl+Z/dxAADySQE=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		fu4ZHNGFd3jC5q32lKQrE9AnJwY=
+		MO56cGkoMZ/03joRJ7RMvhyIp0I=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ruwspp6UUnpGU0z18ba8oWIvoQ4=
+		qYIaPK7pR88bzIEjOavzfVoe/b8=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tfaIXr9BOQ4kI+ZW0oPR+K2fVLs=
+		QW3w8cUkKCydXppYhk7hl0sbPJ8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -134,10 +134,6 @@
 		<data>
 		hTe4QanxSrtDhFK9nD3pfhRfOAI=
 		</data>
-		<key>logger.html</key>
-		<data>
-		KSHkWcp8OCi5qRINEPjI/XGLnas=
-		</data>
 		<key>proximiio_guidance_alert_general.wav</key>
 		<data>
 		fFCEFrz6aJu8aa58wV5Ssc0XM5U=
@@ -175,14 +171,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mTZRUO33DUf300qSw/CYpELp7ANR7HSmp3JGImCNANk=
+			ticeTWFFD8nuGRNDt8NoaBJfXhsnT2y1b8gFof8wibo=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+DYZX4MFai3fztBIQYupFYAVRzNuMaYBWYlZ5DQ1vVg=
+			5rtwXaLw3nvuv0fKc3Tzb8eKMDl/ROtL0MEyMIvtJck=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -217,7 +213,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MXQJBJNlN/IVn3/mJI1dRYnu21gXEbPjnJ6C7JMUWIQ=
+			9SdnYnIJrIYzKXulTdCIWdRtQaYUl0J8wULWa8RVA18=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -252,7 +248,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RsJTuj+FgCLdo89jWbyXXArfJIiXnGetp2s6J4Mw7hs=
+			+5REZIx4LoAN37kNhfIae/oia84lHGA9tZbGsIZWLwk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -335,13 +331,6 @@
 			<key>hash2</key>
 			<data>
 			ZXuQBtc71mJbuQu1+EFUdd78QNtlk84BLWlycSRDl1Q=
-			</data>
-		</dict>
-		<key>logger.html</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mxgxP2izM+qhF3jkSZWPbMhFJkvEQ736KOz6PB1Ec9M=
 			</data>
 		</dict>
 		<key>proximiio_guidance_alert_general.wav</key>
