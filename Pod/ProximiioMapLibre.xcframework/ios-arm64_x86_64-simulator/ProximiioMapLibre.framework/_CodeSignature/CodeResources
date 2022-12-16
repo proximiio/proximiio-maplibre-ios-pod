@@ -16,21 +16,13 @@
 		<data>
 		7cwiooHolT2r0g75C9nROHlpn3c=
 		</data>
-		<key>Modules/ProximiioMapLibre.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		W4ZpKgT7VbsBydl+Z/dxAADySQE=
-		</data>
-		<key>Modules/ProximiioMapLibre.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		MO56cGkoMZ/03joRJ7RMvhyIp0I=
-		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
 		tBKasDPsLVElke0PPlvyaMfvXIA=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		vpuoMrZdLr/7AcEl9U+WhrUrlJY=
+		J0JaPPw/D7zy6sUl25iXgxsW18w=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,11 +30,11 @@
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		tt6CzCcyp6KEcSAn5euh7yGNwA0=
+		UpK70HXY5TFrKUgHwR+Vhc5XZqo=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qYIaPK7pR88bzIEjOavzfVoe/b8=
+		1p8EZL5NFiNgYCA0ui1G6Cx56hA=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +42,7 @@
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		l07SqxAMT0DRXu9FnR2T04TLfW4=
+		H1/t/fcQSDlAjmA7SOLeqFL+AXs=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,11 +50,11 @@
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Jm1nanvphaIi8N4/3yL7XVOEUaM=
+		v3v1J67CqdwbXuBlYI7kZwbBcLo=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QW3w8cUkKCydXppYhk7hl0sbPJ8=
+		cZR4BVNVnsCBzhf9NrN3wRhaQ60=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -167,20 +159,6 @@
 			4MToCvmIFFsyxvL5DYb2CMmxy3V0Qy5rQe0wo6cdrnc=
 			</data>
 		</dict>
-		<key>Modules/ProximiioMapLibre.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ticeTWFFD8nuGRNDt8NoaBJfXhsnT2y1b8gFof8wibo=
-			</data>
-		</dict>
-		<key>Modules/ProximiioMapLibre.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5rtwXaLw3nvuv0fKc3Tzb8eKMDl/ROtL0MEyMIvtJck=
-			</data>
-		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
@@ -192,7 +170,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Opgs/ArdT/Ri/Zp6sr8TIWhBVgRRiKiX2FJMGBgLZMo=
+			E7F+SehMjNdEZGgNynY+VNDDYaeYwcebGBM2xFY7Ys4=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -206,14 +184,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ao4sVYDnzIH0GhtvnO6OPu2hdENQ9XfxBBDtHnuhzpg=
+			39hzTA1Zaq96d8FlJfXHcEyOS1qYoi3VtImMz6GFbOM=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9SdnYnIJrIYzKXulTdCIWdRtQaYUl0J8wULWa8RVA18=
+			ca4tij9gmtQ+7r+yw2jBsdweY33Aib7bATpiPeJP774=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -227,7 +205,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NkV03GBOQlVeU+0+Ap6786fUKbQ8fjC03NunXo6Jw10=
+			mZI/dovsGsnTHMKSS3S4iCRNVWi1C8WJNsVyzIFlDrA=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -241,14 +219,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OjjfvUjWewqRKTaolUmb486klTvh44NzPfDJ67dgTDM=
+			Sd1Y/tieatSkiv4pZb7GM6Ss5KT3ULZOVhcl+01feuc=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+5REZIx4LoAN37kNhfIae/oia84lHGA9tZbGsIZWLwk=
+			cXFOHKuO+DbdVPnUSJ6CNqYF8EW+z29druDgztbXeE8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
