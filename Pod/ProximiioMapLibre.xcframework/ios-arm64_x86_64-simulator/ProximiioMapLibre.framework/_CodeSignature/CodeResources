@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		tBKasDPsLVElke0PPlvyaMfvXIA=
+		To0xmfxtG3DjH4KTqghMedZvrqk=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		LbS3boL0/8C+f5R9Yk8deue8fOc=
+		7yvkRRpPh3x3JYD5wHjcBjrM2k8=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,15 +34,15 @@
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ryoRQn2CXeLmrGzhOCbZViZnyQw=
+		iUy1eu+jRHkss7a6NhHcLulveC4=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		tBKasDPsLVElke0PPlvyaMfvXIA=
+		To0xmfxtG3DjH4KTqghMedZvrqk=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		V8Qol5Jcu6kIK1s5H04ysXN7PIE=
+		CX1AMimc467sTD3UMreA91d0T9k=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RB1EVVmzMug/L72euT5JgQgbJZE=
+		DjaMAwHhjccq7C4LoSmUFy0SqzQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -167,14 +167,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4pNMcn7D7ZZH6w7KVj+a3oLhcwtCdCHy114rqyFxrh4=
+			QMieOGwMn+igW4UP/sQO6PL65+J7YYd/zjCXXGGDM8k=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vy2cwvEDara7iMa3Nk4iL4RzRN/gtsBnLgUIywAQfiw=
+			gXXvUWVGJ6oL9oB9SSIQeoaGmDzCfKFcKkctocDL4cA=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -195,21 +195,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			peh9vmGsUnMuSd80SIpeeW7Gv+FgCVaPYUFKGhSRfhE=
+			c/P/yjAoqR8HVne9Lq2rCvGmluhzVwlqOKBUzqlSlVM=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4pNMcn7D7ZZH6w7KVj+a3oLhcwtCdCHy114rqyFxrh4=
+			QMieOGwMn+igW4UP/sQO6PL65+J7YYd/zjCXXGGDM8k=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QtV1sxxklw6IBurfElhk88JVd3sZy0cdi/+q712uPd8=
+			nHnUcW8pXoIshnqF6a6R/NB69c631SGBa78gqXcAz70=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -230,7 +230,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UlbsBxJjUqmFMC1NzgNy00+7ovia1YRaFzPt7zjBpWw=
+			JrigMBO3pHkIYr8AZK3yyrF2GH5PWNqWpMqvnAVT4WE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

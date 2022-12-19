@@ -13,7 +13,7 @@ import MapKit
 import Mapbox
 import Mustache
 import Network
-@_spi(Private) import Proximiio
+import Proximiio
 import Speech
 import Swift
 import SwiftyJSON

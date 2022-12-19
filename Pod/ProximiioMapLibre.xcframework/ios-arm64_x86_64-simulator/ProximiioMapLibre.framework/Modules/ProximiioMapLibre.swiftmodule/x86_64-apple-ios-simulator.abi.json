@@ -19,10 +19,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "TypeDecl",
@@ -555,10 +552,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -1562,10 +1556,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -1589,10 +1580,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -1601,7 +1589,6 @@
         "declKind": "Import",
         "moduleName": "ProximiioMapLibre",
         "declAttributes": [
-          "SPIAccessControl",
           "RawDocComment"
         ]
       },
@@ -1634,10 +1621,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Function",
@@ -1705,10 +1689,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -1725,10 +1706,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -1766,10 +1744,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -1786,10 +1761,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -2601,10 +2573,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -2621,10 +2590,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "TypeDecl",
@@ -3091,10 +3057,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -3118,10 +3081,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -3145,10 +3105,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -4165,10 +4122,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -4357,10 +4311,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -5068,10 +5019,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -5422,10 +5370,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -5480,10 +5425,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -7051,10 +6993,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "TypeDecl",
@@ -7574,10 +7513,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "TypeDecl",
@@ -8756,10 +8692,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -10661,10 +10594,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -15255,10 +15185,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -15285,10 +15212,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -15304,7 +15228,6 @@
         "declKind": "Import",
         "moduleName": "ProximiioMapLibre",
         "declAttributes": [
-          "SPIAccessControl",
           "RawDocComment"
         ]
       },
@@ -15856,10 +15779,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -15893,10 +15813,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -16355,10 +16272,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -16402,10 +16316,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -16453,10 +16364,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -16487,10 +16395,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -16524,10 +16429,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -16715,10 +16617,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "TypeDecl",
@@ -17197,10 +17096,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -17882,10 +17778,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -18948,10 +18841,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -21391,10 +21281,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "TypeDecl",
@@ -22662,10 +22549,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "TypeDecl",
@@ -23821,10 +23705,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "TypeDecl",
@@ -26243,10 +26124,7 @@
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "TypeDecl",
@@ -28882,28 +28760,28 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORoute.swift",
       "kind": "Array",
-      "offset": 291,
+      "offset": 276,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORoute.swift",
       "kind": "BooleanLiteral",
-      "offset": 464,
+      "offset": 449,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORoute.swift",
       "kind": "Array",
-      "offset": 517,
+      "offset": 502,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORoute.swift",
       "kind": "StringLiteral",
-      "offset": 222,
+      "offset": 207,
       "length": 8,
       "value": "\"ProximiioMapLibre.PIORoute\""
     },
@@ -28924,49 +28802,49 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceFeatureManager.swift",
       "kind": "FloatLiteral",
-      "offset": 341,
+      "offset": 326,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Network\/PIOFailover.swift",
       "kind": "IntegerLiteral",
-      "offset": 439,
+      "offset": 424,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Network\/PIOFailover.swift",
       "kind": "StringLiteral",
-      "offset": 559,
+      "offset": 544,
       "length": 24,
       "value": "\"https:\/\/api.proximi.fi\""
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Source\/ProximiioGeoJSONFloorplanSource.swift",
       "kind": "FloatLiteral",
-      "offset": 412,
+      "offset": 397,
       "length": 4,
       "value": "28.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Source\/ProximiioGeoJSONFloorplanSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 706,
+      "offset": 691,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Source\/ProximiioGeoJSONFloorplanSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 768,
+      "offset": 753,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Source\/PIOGeoJSONSource.swift",
       "kind": "StringLiteral",
-      "offset": 223,
+      "offset": 208,
       "length": 16,
       "value": "\"ProximiioMapLibre.PIOGeoJSONSource\""
     },
@@ -29057,91 +28935,91 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "FloatLiteral",
-      "offset": 1925,
+      "offset": 1910,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1965,
+      "offset": 1950,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 2008,
+      "offset": 1993,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 2051,
+      "offset": 2036,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 2095,
+      "offset": 2080,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 2134,
+      "offset": 2119,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 2182,
+      "offset": 2167,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 2226,
+      "offset": 2211,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 2271,
+      "offset": 2256,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 4566,
+      "offset": 4551,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 5100,
+      "offset": 5085,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 316,
+      "offset": 301,
       "length": 21,
       "value": "\"ProximiioMapLibre.PIORouteConfiguration\""
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/Osrm\/PIOManeuver.swift",
       "kind": "StringLiteral",
-      "offset": 221,
+      "offset": 206,
       "length": 11,
       "value": "\"ProximiioMapLibre.PIOManeuver\""
     },
@@ -29281,28 +29159,28 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
       "kind": "FloatLiteral",
-      "offset": 433,
+      "offset": 418,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
       "kind": "FloatLiteral",
-      "offset": 471,
+      "offset": 456,
       "length": 4,
       "value": "25.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
       "kind": "FloatLiteral",
-      "offset": 2936,
+      "offset": 2921,
       "length": 4,
       "value": "90.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
       "kind": "FloatLiteral",
-      "offset": 2983,
+      "offset": 2968,
       "length": 4,
       "value": "14.0"
     },
@@ -29323,42 +29201,42 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORouter.swift",
       "kind": "StringLiteral",
-      "offset": 17072,
+      "offset": 17057,
       "length": 6,
       "value": "\"ProximiioMapLibre.Result\""
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
       "kind": "FloatLiteral",
-      "offset": 1057,
+      "offset": 1042,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
       "kind": "FloatLiteral",
-      "offset": 1103,
+      "offset": 1088,
       "length": 3,
       "value": "4.5"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
       "kind": "BooleanLiteral",
-      "offset": 1134,
+      "offset": 1119,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
       "kind": "BooleanLiteral",
-      "offset": 4533,
+      "offset": 4518,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
       "kind": "BooleanLiteral",
-      "offset": 7264,
+      "offset": 7249,
       "length": 5,
       "value": "false"
     },
@@ -29372,56 +29250,56 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
       "kind": "Array",
-      "offset": 475,
+      "offset": 460,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 677,
+      "offset": 662,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 751,
+      "offset": 736,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 790,
+      "offset": 775,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
       "kind": "FloatLiteral",
-      "offset": 834,
+      "offset": 819,
       "length": 4,
       "value": "0.78"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 881,
+      "offset": 866,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 954,
+      "offset": 939,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/PIOMapboxLocationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9376,
+      "offset": 9361,
       "length": 5,
       "value": "false"
     },
@@ -29442,28 +29320,28 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOLandmarkSide.swift",
       "kind": "IntegerLiteral",
-      "offset": 251,
+      "offset": 236,
       "length": 5,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOLandmarkSide.swift",
       "kind": "IntegerLiteral",
-      "offset": 251,
+      "offset": 236,
       "length": 5,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOLandmarkSide.swift",
       "kind": "StringLiteral",
-      "offset": 279,
+      "offset": 264,
       "length": 11,
       "value": "\"ProximiioMapLibre.PIOLandmark\""
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/Osrm\/PIOOsrmRoute.swift",
       "kind": "StringLiteral",
-      "offset": 230,
+      "offset": 215,
       "length": 12,
       "value": "\"ProximiioMapLibre.PIOOsrmRoute\""
     },
@@ -29848,161 +29726,161 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 370,
+      "offset": 355,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 387,
+      "offset": 372,
       "length": 7,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 370,
+      "offset": 355,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 387,
+      "offset": 372,
       "length": 7,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 480,
+      "offset": 465,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 480,
+      "offset": 465,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 1989,
+      "offset": 1974,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 2033,
+      "offset": 2018,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 2393,
+      "offset": 2378,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 2534,
+      "offset": 2519,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "Dictionary",
-      "offset": 2607,
+      "offset": 2592,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "StringLiteral",
-      "offset": 2821,
+      "offset": 2806,
       "length": 4,
       "value": "\"v5\""
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 3852,
+      "offset": 3837,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "Array",
-      "offset": 4385,
+      "offset": 4370,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 4500,
+      "offset": 4485,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 26457,
+      "offset": 26442,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 26484,
+      "offset": 26469,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 29345,
+      "offset": 29330,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 29366,
+      "offset": 29351,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 30065,
+      "offset": 30050,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 30086,
+      "offset": 30071,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 30635,
+      "offset": 30620,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 30656,
+      "offset": 30641,
       "length": 4,
       "value": "true"
     },
@@ -30121,231 +29999,231 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Model\/PIOWaypoint.swift",
       "kind": "StringLiteral",
-      "offset": 230,
+      "offset": 215,
       "length": 14,
       "value": "\"ProximiioMapLibre.SimpleWaypoint\""
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Model\/PIOWaypoint.swift",
       "kind": "StringLiteral",
-      "offset": 422,
+      "offset": 407,
       "length": 16,
       "value": "\"ProximiioMapLibre.VariableWaypoint\""
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "IntegerLiteral",
-      "offset": 440,
+      "offset": 425,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "IntegerLiteral",
-      "offset": 450,
+      "offset": 435,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "Dictionary",
-      "offset": 799,
+      "offset": 784,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1721,
+      "offset": 1706,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "BooleanLiteral",
-      "offset": 30083,
+      "offset": 30068,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "BooleanLiteral",
-      "offset": 30271,
+      "offset": 30256,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 352,
+      "offset": 337,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 461,
+      "offset": 446,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 559,
+      "offset": 544,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "FloatLiteral",
-      "offset": 614,
+      "offset": 599,
       "length": 4,
       "value": "25.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "IntegerLiteral",
-      "offset": 669,
+      "offset": 654,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 826,
+      "offset": 811,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 861,
+      "offset": 846,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 901,
+      "offset": 886,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 954,
+      "offset": 939,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 989,
+      "offset": 974,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "FloatLiteral",
-      "offset": 1098,
+      "offset": 1083,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "IntegerLiteral",
-      "offset": 1163,
+      "offset": 1148,
       "length": 4,
       "value": "5000"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 1204,
+      "offset": 1189,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 1375,
+      "offset": 1360,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 1398,
+      "offset": 1383,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 4664,
+      "offset": 4649,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 4736,
+      "offset": 4721,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 4814,
+      "offset": 4799,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 4849,
+      "offset": 4834,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 4919,
+      "offset": 4904,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 5033,
+      "offset": 5018,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 8066,
+      "offset": 8051,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 10756,
+      "offset": 10741,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIOLevelChangerData.swift",
       "kind": "StringLiteral",
-      "offset": 222,
+      "offset": 207,
       "length": 19,
       "value": "\"ProximiioMapLibre.PIOLevelChangerData\""
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/Osrm\/PIOLeg.swift",
       "kind": "StringLiteral",
-      "offset": 217,
+      "offset": 202,
       "length": 6,
       "value": "\"ProximiioMapLibre.PIOLeg\""
     },
@@ -30366,63 +30244,63 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigationMapboxPathManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 492,
+      "offset": 477,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigationMapboxPathManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 521,
+      "offset": 506,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigationMapboxPathManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1234,
+      "offset": 1219,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigationMapboxPathManager.swift",
       "kind": "StringLiteral",
-      "offset": 2406,
+      "offset": 2391,
       "length": 7,
       "value": "\"route\""
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigationMapboxPathManager.swift",
       "kind": "StringLiteral",
-      "offset": 2745,
+      "offset": 2730,
       "length": 7,
       "value": "\"route\""
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/Osrm\/PIOStep.swift",
       "kind": "StringLiteral",
-      "offset": 218,
+      "offset": 203,
       "length": 7,
       "value": "\"ProximiioMapLibre.PIOStep\""
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Wayfinder\/PIOWayfinder2.swift",
       "kind": "StringLiteral",
-      "offset": 326,
+      "offset": 311,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Wayfinder\/PIOWayfinder2.swift",
       "kind": "StringLiteral",
-      "offset": 368,
+      "offset": 353,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Filtering\/PIOFilter.swift",
       "kind": "StringLiteral",
-      "offset": 213,
+      "offset": 198,
       "length": 9,
       "value": "\"custom:\""
     },
@@ -30583,112 +30461,112 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "IntegerLiteral",
-      "offset": 596,
+      "offset": 581,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 629,
+      "offset": 614,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "FloatLiteral",
-      "offset": 784,
+      "offset": 769,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "FloatLiteral",
-      "offset": 840,
+      "offset": 825,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 896,
+      "offset": 881,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 946,
+      "offset": 931,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "IntegerLiteral",
-      "offset": 5537,
+      "offset": 5522,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 6008,
+      "offset": 5993,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 6044,
+      "offset": 6029,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 6085,
+      "offset": 6070,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "IntegerLiteral",
-      "offset": 6212,
+      "offset": 6197,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 6848,
+      "offset": 6833,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 9246,
+      "offset": 9231,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteNode.swift",
       "kind": "StringLiteral",
-      "offset": 768,
+      "offset": 753,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteNode.swift",
       "kind": "StringLiteral",
-      "offset": 232,
+      "offset": 217,
       "length": 12,
       "value": "\"ProximiioMapLibre.PIORouteNode\""
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteSplit.swift",
       "kind": "StringLiteral",
-      "offset": 213,
+      "offset": 198,
       "length": 13,
       "value": "\"ProximiioMapLibre.PIORouteSplit\""
     },
@@ -30821,7 +30699,7 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteStep.swift",
       "kind": "StringLiteral",
-      "offset": 212,
+      "offset": 197,
       "length": 12,
       "value": "\"ProximiioMapLibre.PIORouteStep\""
     },

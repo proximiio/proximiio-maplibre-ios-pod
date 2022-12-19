@@ -1,3 +1,3 @@
 # Proximi.io MapLibre iOS Library
 
-Current Version: 5.29.0
+Current Version: 5.30.0
