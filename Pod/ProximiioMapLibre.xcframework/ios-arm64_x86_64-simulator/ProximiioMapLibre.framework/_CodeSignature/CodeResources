@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ProximiioMapLibre-Swift.h</key>
 		<data>
-		JvDJmPdNFYOgNZRnFxbbilmStXQ=
+		k+EzcdA0/X2zNX4zfJA6c2xSnc4=
 		</data>
 		<key>Headers/ProximiioMapbox.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1LbP9iRmrTJUcMWo6YtjdsZoKzk=
+		PxmEcGMr9LpwrHxqVXkhHWWf7IA=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		J0JaPPw/D7zy6sUl25iXgxsW18w=
+		LbS3boL0/8C+f5R9Yk8deue8fOc=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		MRoB73gE/vzwQgy6DZIFsiGGvu0=
+		5ze9pk6gmPz7xKke1WNwpwtjDcQ=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UpK70HXY5TFrKUgHwR+Vhc5XZqo=
+		7yvkRRpPh3x3JYD5wHjcBjrM2k8=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1p8EZL5NFiNgYCA0ui1G6Cx56hA=
+		ryoRQn2CXeLmrGzhOCbZViZnyQw=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		H1/t/fcQSDlAjmA7SOLeqFL+AXs=
+		V8Qol5Jcu6kIK1s5H04ysXN7PIE=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		9QHFE+D7QNxSDFjlfz6lNwA0Wy0=
+		U0N5JqBc3XVfrlQjkjl3wwTS+Yc=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		v3v1J67CqdwbXuBlYI7kZwbBcLo=
+		CX1AMimc467sTD3UMreA91d0T9k=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cZR4BVNVnsCBzhf9NrN3wRhaQ60=
+		RB1EVVmzMug/L72euT5JgQgbJZE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -153,7 +153,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xI/HwlH0kTaLrJnVH1kzC2CkEv922DxESNTz3To/pTE=
+			/l5B60p41CKo15x3IlyKCF3IrnzZBoiaw9m7fq+KIII=
 			</data>
 		</dict>
 		<key>Headers/ProximiioMapbox.h</key>
@@ -174,28 +174,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E7F+SehMjNdEZGgNynY+VNDDYaeYwcebGBM2xFY7Ys4=
+			vy2cwvEDara7iMa3Nk4iL4RzRN/gtsBnLgUIywAQfiw=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yFxGZz5ajQeEbDWzb0+rbamQT7QiLBvRXxwZtgEaeZU=
+			aA0uqkClKXZD5By+kqonJntAuCKwUnVdRhwm3pleqQ0=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			39hzTA1Zaq96d8FlJfXHcEyOS1qYoi3VtImMz6GFbOM=
+			gXXvUWVGJ6oL9oB9SSIQeoaGmDzCfKFcKkctocDL4cA=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ca4tij9gmtQ+7r+yw2jBsdweY33Aib7bATpiPeJP774=
+			peh9vmGsUnMuSd80SIpeeW7Gv+FgCVaPYUFKGhSRfhE=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -209,28 +209,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mZI/dovsGsnTHMKSS3S4iCRNVWi1C8WJNsVyzIFlDrA=
+			QtV1sxxklw6IBurfElhk88JVd3sZy0cdi/+q712uPd8=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wFbVltdIQENmwkTH3K2hbdEBSyM/oxCeIvryaLtZ0a4=
+			tar2D+XGk967xtODqVKLC7s9aVB22SaDFR/+VpuPsYs=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sd1Y/tieatSkiv4pZb7GM6Ss5KT3ULZOVhcl+01feuc=
+			nHnUcW8pXoIshnqF6a6R/NB69c631SGBa78gqXcAz70=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cXFOHKuO+DbdVPnUSJ6CNqYF8EW+z29druDgztbXeE8=
+			UlbsBxJjUqmFMC1NzgNy00+7ovia1YRaFzPt7zjBpWw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
