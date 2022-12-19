@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7cwiooHolT2r0g75C9nROHlpn3c=
+		1LbP9iRmrTJUcMWo6YtjdsZoKzk=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -125,6 +125,10 @@
 		<key>guidance_fi.json</key>
 		<data>
 		hTe4QanxSrtDhFK9nD3pfhRfOAI=
+		</data>
+		<key>logger.html</key>
+		<data>
+		KSHkWcp8OCi5qRINEPjI/XGLnas=
 		</data>
 		<key>proximiio_guidance_alert_general.wav</key>
 		<data>
@@ -309,6 +313,13 @@
 			<key>hash2</key>
 			<data>
 			ZXuQBtc71mJbuQu1+EFUdd78QNtlk84BLWlycSRDl1Q=
+			</data>
+		</dict>
+		<key>logger.html</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mxgxP2izM+qhF3jkSZWPbMhFJkvEQ736KOz6PB1Ec9M=
 			</data>
 		</dict>
 		<key>proximiio_guidance_alert_general.wav</key>
