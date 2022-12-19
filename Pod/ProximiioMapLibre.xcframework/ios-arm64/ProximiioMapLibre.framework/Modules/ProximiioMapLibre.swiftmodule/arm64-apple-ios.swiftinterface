@@ -114,7 +114,7 @@ extension ProximiioGeoJSON {
     get
   }
 }
-extension Array where Element == Proximiio.ProximiioGeoJSON {
+extension Array where Element == ProximiioGeoJSON {
   public var amenities: [ProximiioAmenity] {
     get
   }
@@ -204,12 +204,12 @@ public struct World {
     mutating get
     set
   }
-  public var router: ProximiioMapLibre.PIORouter
-  public var audioManager: ProximiioMapLibre.PIOAudioManager
-  public var telemetry: ProximiioMapLibre.PIOTelemetry
-  public var wayFinder: ProximiioMapLibre.PIOWayfinder2
+  public var router: PIORouter
+  public var audioManager: PIOAudioManager
+  public var telemetry: PIOTelemetry
+  public var wayFinder: PIOWayfinder2
 }
-public var Current: ProximiioMapLibre.World
+public var Current: World
 public struct PIORouteNearestPoint {
 }
 @_inheritsConvenienceInitializers @objc public class PIORouter : NSObject {
@@ -352,7 +352,7 @@ extension PIOTurfRing {
   @objc func onTTSDirection(text: String?)
 }
 @_inheritsConvenienceInitializers @objc final public class ProximiioMapLibre : NSObject, URLSessionDelegate {
-  @objc public static let shared: ProximiioMapLibre.ProximiioMapLibre
+  @objc public static let shared: ProximiioMapLibre
   final public var headingOrientation: CLDeviceOrientation
   final public var authorizationStatus: CLAuthorizationStatus
   final public var debugShowDevelopmentRoutes: Swift.Bool
@@ -387,7 +387,7 @@ extension PIOTurfRing {
     @objc get
     @objc set
   }
-  @objc final public var database: ProximiioMapLibre.PIODatabase
+  @objc final public var database: PIODatabase
   @objc final public var customOSRMPath: String?
   final public var navigation: PIONavigation? {
     get
@@ -469,7 +469,7 @@ extension ProximiioAmenity {
 @_hasMissingDesignatedInitializers public class PIODebug {
   public enum PIODebugSource {
     case app, map, sdk, network, database, generic
-    public static func == (a: ProximiioMapLibre.PIODebug.PIODebugSource, b: ProximiioMapLibre.PIODebug.PIODebugSource) -> Swift.Bool
+    public static func == (a: PIODebug.PIODebugSource, b: PIODebug.PIODebugSource) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
@@ -522,7 +522,7 @@ extension PIOUnitConversion {
     case finished
     case canceled
     case error
-    public static func == (a: ProximiioMapLibre.PIOAudioManager.StatePlayed, b: ProximiioMapLibre.PIOAudioManager.StatePlayed) -> Swift.Bool
+    public static func == (a: PIOAudioManager.StatePlayed, b: PIOAudioManager.StatePlayed) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
@@ -556,8 +556,8 @@ extension AVSpeechUtterance {
   convenience public init(string: String, voice: AVSpeechSynthesisVoice? = nil)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class PIONavigation : NSObject, PIONavigationDelegate {
-  @objc public static let shared: ProximiioMapLibre.PIONavigation
-  public var action: Combine.PassthroughSubject<ProximiioMapLibre.PIONavigation.Action, Swift.Never>
+  @objc public static let shared: PIONavigation
+  public var action: Combine.PassthroughSubject<PIONavigation.Action, Swift.Never>
   @objc public func setStepImmediateThreshold(inMeters threshold: Double)
   @objc public func setStepPreparationThreshold(inMeters threshold: Double)
   @objc public func setRouteFinishThreshold(inMeters threshold: Double)
@@ -590,8 +590,8 @@ extension AVSpeechUtterance {
     @objc get
     @objc set
   }
-  @objc public var remainingRoute: [Proximiio.ProximiioGeoJSON]
-  @objc public var completedRoute: [Proximiio.ProximiioGeoJSON]
+  @objc public var remainingRoute: [ProximiioGeoJSON]
+  @objc public var completedRoute: [ProximiioGeoJSON]
   @objc public var closestPointToRoute: ProximiioPointOnLine?
   @objc weak public var routeDelegate: PIORouteDelegate?
   public var routeStarted: Swift.Bool
@@ -728,21 +728,21 @@ extension PIONavigation {
   @objc override dynamic public init()
   @objc deinit
 }
-extension ProximiioMapLibre.PIOLandmarkSide : Swift.Equatable {}
-extension ProximiioMapLibre.PIOLandmarkSide : Swift.Hashable {}
-extension ProximiioMapLibre.PIOLandmarkSide : Swift.RawRepresentable {}
-extension ProximiioMapLibre.PIOGuidanceDirection : Swift.Hashable {}
-extension ProximiioMapLibre.PIOGuidanceDirection : Swift.RawRepresentable {}
-extension ProximiioMapLibre.ProximiioMapLibreAuthorizationResult : Swift.Equatable {}
-extension ProximiioMapLibre.ProximiioMapLibreAuthorizationResult : Swift.Hashable {}
-extension ProximiioMapLibre.ProximiioMapLibreAuthorizationResult : Swift.RawRepresentable {}
-extension ProximiioMapLibre.ProximiioMapLibreNetworkResult : Swift.Equatable {}
-extension ProximiioMapLibre.ProximiioMapLibreNetworkResult : Swift.Hashable {}
-extension ProximiioMapLibre.ProximiioMapLibreNetworkResult : Swift.RawRepresentable {}
-extension ProximiioMapLibre.PIODebug.PIODebugSource : Swift.Equatable {}
-extension ProximiioMapLibre.PIODebug.PIODebugSource : Swift.Hashable {}
-extension ProximiioMapLibre.PIOAudioManager.StatePlayed : Swift.Equatable {}
-extension ProximiioMapLibre.PIOAudioManager.StatePlayed : Swift.Hashable {}
-extension ProximiioMapLibre.PIORouteUpdateType : Swift.Equatable {}
-extension ProximiioMapLibre.PIORouteUpdateType : Swift.Hashable {}
-extension ProximiioMapLibre.PIORouteUpdateType : Swift.RawRepresentable {}
+extension PIOLandmarkSide : Swift.Equatable {}
+extension PIOLandmarkSide : Swift.Hashable {}
+extension PIOLandmarkSide : Swift.RawRepresentable {}
+extension PIOGuidanceDirection : Swift.Hashable {}
+extension PIOGuidanceDirection : Swift.RawRepresentable {}
+extension ProximiioMapLibreAuthorizationResult : Swift.Equatable {}
+extension ProximiioMapLibreAuthorizationResult : Swift.Hashable {}
+extension ProximiioMapLibreAuthorizationResult : Swift.RawRepresentable {}
+extension ProximiioMapLibreNetworkResult : Swift.Equatable {}
+extension ProximiioMapLibreNetworkResult : Swift.Hashable {}
+extension ProximiioMapLibreNetworkResult : Swift.RawRepresentable {}
+extension PIODebug.PIODebugSource : Swift.Equatable {}
+extension PIODebug.PIODebugSource : Swift.Hashable {}
+extension PIOAudioManager.StatePlayed : Swift.Equatable {}
+extension PIOAudioManager.StatePlayed : Swift.Hashable {}
+extension PIORouteUpdateType : Swift.Equatable {}
+extension PIORouteUpdateType : Swift.Hashable {}
+extension PIORouteUpdateType : Swift.RawRepresentable {}

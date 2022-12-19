@@ -114,7 +114,7 @@ extension ProximiioGeoJSON {
     get
   }
 }
-extension Array where Element == ProximiioGeoJSON {
+extension Array where Element == Proximiio.ProximiioGeoJSON {
   public var amenities: [ProximiioAmenity] {
     get
   }
@@ -590,8 +590,8 @@ extension AVSpeechUtterance {
     @objc get
     @objc set
   }
-  @objc public var remainingRoute: [ProximiioGeoJSON]
-  @objc public var completedRoute: [ProximiioGeoJSON]
+  @objc public var remainingRoute: [Proximiio.ProximiioGeoJSON]
+  @objc public var completedRoute: [Proximiio.ProximiioGeoJSON]
   @objc public var closestPointToRoute: ProximiioPointOnLine?
   @objc weak public var routeDelegate: PIORouteDelegate?
   public var routeStarted: Swift.Bool
