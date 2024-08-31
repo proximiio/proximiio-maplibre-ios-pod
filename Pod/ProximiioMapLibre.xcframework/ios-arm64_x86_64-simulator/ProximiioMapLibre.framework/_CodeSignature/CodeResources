@@ -4,9 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Alamofire.bundle/Info.plist</key>
+		<data>
+		LjN5K8Kv2brx52Z5/f3aAFZn5hM=
+		</data>
+		<key>Alamofire.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		ovFJMFOLMjzh8DLJKmXncj8JIgU=
+		</data>
 		<key>Headers/ProximiioMapLibre-Swift.h</key>
 		<data>
-		k+EzcdA0/X2zNX4zfJA6c2xSnc4=
+		NJ3yQYisNZ5Khngij43V7uJm52g=
 		</data>
 		<key>Headers/ProximiioMapbox.h</key>
 		<data>
@@ -14,51 +22,67 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PxmEcGMr9LpwrHxqVXkhHWWf7IA=
+		5olxPKg9faUvXgdrUu9b8AvTKzI=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		To0xmfxtG3DjH4KTqghMedZvrqk=
+		ULJuyUX7j2dUfSysi6xU33/ndoM=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		7yvkRRpPh3x3JYD5wHjcBjrM2k8=
+		kzh9NzRtJhjLoR1ZE+N5cEX5d2g=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		5ze9pk6gmPz7xKke1WNwpwtjDcQ=
+		+Ecjw5VqjtHylT0BielUY3C+3cA=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7yvkRRpPh3x3JYD5wHjcBjrM2k8=
+		kzh9NzRtJhjLoR1ZE+N5cEX5d2g=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iUy1eu+jRHkss7a6NhHcLulveC4=
+		NQTnjpcrKDis/OOazmafIW6OJaE=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		To0xmfxtG3DjH4KTqghMedZvrqk=
+		ULJuyUX7j2dUfSysi6xU33/ndoM=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		CX1AMimc467sTD3UMreA91d0T9k=
+		LDyRBYGBoPXicm2hc89vCQzHgbs=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		U0N5JqBc3XVfrlQjkjl3wwTS+Yc=
+		qHcDna1ZxH2X94tH/vDuyysH6LM=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		CX1AMimc467sTD3UMreA91d0T9k=
+		LDyRBYGBoPXicm2hc89vCQzHgbs=
 		</data>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DjaMAwHhjccq7C4LoSmUFy0SqzQ=
+		QJjMbHPYBIT5EqdDPpVsktY63Ro=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		z5I1Bw++6JKtx6q1Cb/DSr2A/To=
+		</data>
+		<key>SQLCipher.bundle/Info.plist</key>
+		<data>
+		E9C9HnH6IzUe7/8TlonD1RCjmnc=
+		</data>
+		<key>SQLCipher.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		XlCI/kohzH7fliRXMuzQdaRPSpE=
+		</data>
+		<key>SwiftyJSON.bundle/Info.plist</key>
+		<data>
+		BxeMLt3HrGDgrZ58gx0kJYiEeYY=
+		</data>
+		<key>SwiftyJSON.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		AL1dh5ctObXBjoBiabSJ86M3HQs=
 		</data>
 		<key>ar.lproj/Localizable.strings</key>
 		<dict>
@@ -149,11 +173,25 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Alamofire.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cKhCs4VXF6dapmgfaE8ahjP46HwDwmERCLpb1ZrzYyM=
+			</data>
+		</dict>
+		<key>Alamofire.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CNkOaUbb/qDQtbF/tlnXfu0j5EO3Rdjntbn6N4y3RHc=
+			</data>
+		</dict>
 		<key>Headers/ProximiioMapLibre-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/l5B60p41CKo15x3IlyKCF3IrnzZBoiaw9m7fq+KIII=
+			QSHxN+E91KMeEtnqdhsYUL2FbMYCeOYxfd+qU4IG5TQ=
 			</data>
 		</dict>
 		<key>Headers/ProximiioMapbox.h</key>
@@ -167,70 +205,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QMieOGwMn+igW4UP/sQO6PL65+J7YYd/zjCXXGGDM8k=
+			vTalaBuWvD5usIoYyhBu7DAhlgXy6I3GK7SX2vQJX6Q=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gXXvUWVGJ6oL9oB9SSIQeoaGmDzCfKFcKkctocDL4cA=
+			yUIJGv0klBAjS1a3F1U36Ul1OcwGMcCa/XmKfacE8HY=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aA0uqkClKXZD5By+kqonJntAuCKwUnVdRhwm3pleqQ0=
+			rXP/5hXCi2OW2+cGozas6RGbX5Il5qhb3oSAr2VoeN8=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gXXvUWVGJ6oL9oB9SSIQeoaGmDzCfKFcKkctocDL4cA=
+			yUIJGv0klBAjS1a3F1U36Ul1OcwGMcCa/XmKfacE8HY=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c/P/yjAoqR8HVne9Lq2rCvGmluhzVwlqOKBUzqlSlVM=
+			SO0yKW9GNQh7igtkkQpwjQ0OrQuO7D7Fhwp5N3pSMRw=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QMieOGwMn+igW4UP/sQO6PL65+J7YYd/zjCXXGGDM8k=
+			vTalaBuWvD5usIoYyhBu7DAhlgXy6I3GK7SX2vQJX6Q=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nHnUcW8pXoIshnqF6a6R/NB69c631SGBa78gqXcAz70=
+			VGJCxTRgUZFQRZyME2liEIjKjyjTebSqDtuZGCU6qT8=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tar2D+XGk967xtODqVKLC7s9aVB22SaDFR/+VpuPsYs=
+			O5PMFGi7Ke402XSU6UXN0yIzJyr479GxXDoShwXKrUo=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nHnUcW8pXoIshnqF6a6R/NB69c631SGBa78gqXcAz70=
+			VGJCxTRgUZFQRZyME2liEIjKjyjTebSqDtuZGCU6qT8=
 			</data>
 		</dict>
 		<key>Modules/ProximiioMapLibre.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JrigMBO3pHkIYr8AZK3yyrF2GH5PWNqWpMqvnAVT4WE=
+			3Nm4i6rcxe1cLkuMYQvffWKmgt84Ip3vCPAx62jQ4NQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -238,6 +276,34 @@
 			<key>hash2</key>
 			<data>
 			FPS7pJF93tTgQcDx5y573hgWX+Ft08RL8GPfanrU1q4=
+			</data>
+		</dict>
+		<key>SQLCipher.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			B9/YXZjpBxOOspHOPDkVR9/zdWfHp6fi4rv4ma4YV5Q=
+			</data>
+		</dict>
+		<key>SQLCipher.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			k2J5a6gAp7QWmDTv+L3pkIZvQBFP97qsACuLrlQ+jdE=
+			</data>
+		</dict>
+		<key>SwiftyJSON.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SAAwdHl3tOXzz8stNYhBplHy2Fbo7I3L7U28KaBckaU=
+			</data>
+		</dict>
+		<key>SwiftyJSON.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WpuPwM3bECAbtHzCgEs/AExyUUdmItJb/E61TtRuEIQ=
 			</data>
 		</dict>
 		<key>ar.lproj/Localizable.strings</key>

@@ -4287,10 +4287,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "ProximiioMapLibre"
       },
       {
         "kind": "Import",
@@ -4312,6 +4309,787 @@
         "printedName": "Proximiio",
         "declKind": "Import",
         "moduleName": "ProximiioMapLibre"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PIOGuidanceHeadingCorrectionManager",
+        "printedName": "PIOGuidanceHeadingCorrectionManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PIOGuidanceHeadingCorrectionManager",
+                "printedName": "ProximiioMapLibre.PIOGuidanceHeadingCorrectionManager",
+                "usr": "c:@M@ProximiioMapLibre@objc(cs)PIOGuidanceHeadingCorrectionManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC6sharedACvpZ",
+            "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC6sharedACvpZ",
+            "moduleName": "ProximiioMapLibre",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PIOGuidanceHeadingCorrectionManager",
+                    "printedName": "ProximiioMapLibre.PIOGuidanceHeadingCorrectionManager",
+                    "usr": "c:@M@ProximiioMapLibre@objc(cs)PIOGuidanceHeadingCorrectionManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC6sharedACvgZ",
+                "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC6sharedACvgZ",
+                "moduleName": "ProximiioMapLibre",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "wrongWayThresholdMeters",
+            "printedName": "wrongWayThresholdMeters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC23wrongWayThresholdMetersSdvp",
+            "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC23wrongWayThresholdMetersSdvp",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC23wrongWayThresholdMetersSdvg",
+                "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC23wrongWayThresholdMetersSdvg",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC23wrongWayThresholdMetersSdvs",
+                "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC23wrongWayThresholdMetersSdvs",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC23wrongWayThresholdMetersSdvM",
+                "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC23wrongWayThresholdMetersSdvM",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "wrongWayCancelRouteAfter",
+            "printedName": "wrongWayCancelRouteAfter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC24wrongWayCancelRouteAfterSivp",
+            "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC24wrongWayCancelRouteAfterSivp",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC24wrongWayCancelRouteAfterSivg",
+                "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC24wrongWayCancelRouteAfterSivg",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC24wrongWayCancelRouteAfterSivs",
+                "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC24wrongWayCancelRouteAfterSivs",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC24wrongWayCancelRouteAfterSivM",
+                "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC24wrongWayCancelRouteAfterSivM",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "wrongWayCancelRouteEnabled",
+            "printedName": "wrongWayCancelRouteEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC26wrongWayCancelRouteEnabledSbvp",
+            "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC26wrongWayCancelRouteEnabledSbvp",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC26wrongWayCancelRouteEnabledSbvg",
+                "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC26wrongWayCancelRouteEnabledSbvg",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC26wrongWayCancelRouteEnabledSbvs",
+                "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC26wrongWayCancelRouteEnabledSbvs",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC26wrongWayCancelRouteEnabledSbvM",
+                "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC26wrongWayCancelRouteEnabledSbvM",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callback",
+            "printedName": "callback",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ProximiioMapLibre.PIOHeadingCorrectionCallback?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PIOHeadingCorrectionCallback",
+                    "printedName": "ProximiioMapLibre.PIOHeadingCorrectionCallback",
+                    "usr": "c:@M@ProximiioMapLibre@objc(pl)PIOHeadingCorrectionCallback"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC8callbackAA010PIOHeadingF8Callback_pSgvp",
+            "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC8callbackAA010PIOHeadingF8Callback_pSgvp",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ProximiioMapLibre.PIOHeadingCorrectionCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PIOHeadingCorrectionCallback",
+                        "printedName": "ProximiioMapLibre.PIOHeadingCorrectionCallback",
+                        "usr": "c:@M@ProximiioMapLibre@objc(pl)PIOHeadingCorrectionCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC8callbackAA010PIOHeadingF8Callback_pSgvg",
+                "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC8callbackAA010PIOHeadingF8Callback_pSgvg",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ProximiioMapLibre.PIOHeadingCorrectionCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PIOHeadingCorrectionCallback",
+                        "printedName": "ProximiioMapLibre.PIOHeadingCorrectionCallback",
+                        "usr": "c:@M@ProximiioMapLibre@objc(pl)PIOHeadingCorrectionCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC8callbackAA010PIOHeadingF8Callback_pSgvs",
+                "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC8callbackAA010PIOHeadingF8Callback_pSgvs",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC8callbackAA010PIOHeadingF8Callback_pSgvM",
+                "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC8callbackAA010PIOHeadingF8Callback_pSgvM",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastHeading",
+            "printedName": "lastHeading",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreLocation.CLHeading?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLHeading",
+                    "printedName": "CoreLocation.CLHeading",
+                    "usr": "c:objc(cs)CLHeading"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC04lastE0So9CLHeadingCSgvp",
+            "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC04lastE0So9CLHeadingCSgvp",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreLocation.CLHeading?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CLHeading",
+                        "printedName": "CoreLocation.CLHeading",
+                        "usr": "c:objc(cs)CLHeading"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC04lastE0So9CLHeadingCSgvg",
+                "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC04lastE0So9CLHeadingCSgvg",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreLocation.CLHeading?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CLHeading",
+                        "printedName": "CoreLocation.CLHeading",
+                        "usr": "c:objc(cs)CLHeading"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC04lastE0So9CLHeadingCSgvs",
+                "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC04lastE0So9CLHeadingCSgvs",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC04lastE0So9CLHeadingCSgvM",
+                "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC04lastE0So9CLHeadingCSgvM",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "wrongDirectionCount",
+            "printedName": "wrongDirectionCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC19wrongDirectionCountSivp",
+            "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC19wrongDirectionCountSivp",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC19wrongDirectionCountSivg",
+                "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC19wrongDirectionCountSivg",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stepCounts",
+            "printedName": "stepCounts",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.Int",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC10stepCountsSiycvp",
+            "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC10stepCountsSiycvp",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> Swift.Int",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC10stepCountsSiycvg",
+                "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC10stepCountsSiycvg",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> Swift.Int",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC10stepCountsSiycvs",
+                "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC10stepCountsSiycvs",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC10stepCountsSiycvM",
+                "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC10stepCountsSiycvM",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ProximiioMapLibre@objc(cs)PIOGuidanceHeadingCorrectionManager",
+        "mangledName": "$s17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManagerC",
+        "moduleName": "ProximiioMapLibre",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MustacheBoxable",
+            "printedName": "MustacheBoxable",
+            "usr": "s:8Mustache0A7BoxableP",
+            "mangledName": "$s8Mustache0A7BoxableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -5392,6 +6170,1358 @@
         "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "ProximiioMapLibre"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PIOGuidance",
+        "printedName": "PIOGuidance",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PIOGuidance",
+                "printedName": "ProximiioMapLibre.PIOGuidance",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre11PIOGuidanceC6sharedACvpZ",
+            "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC6sharedACvpZ",
+            "moduleName": "ProximiioMapLibre",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PIOGuidance",
+                    "printedName": "ProximiioMapLibre.PIOGuidance",
+                    "usr": "s:17ProximiioMapLibre11PIOGuidanceC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC6sharedACvgZ",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC6sharedACvgZ",
+                "moduleName": "ProximiioMapLibre",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "action",
+            "printedName": "action",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PassthroughSubject",
+                "printedName": "Combine.PassthroughSubject<ProximiioMapLibre.PIOGuidance.Action, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Action",
+                    "printedName": "ProximiioMapLibre.PIOGuidance.Action",
+                    "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine18PassthroughSubjectC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre11PIOGuidanceC6action7Combine18PassthroughSubjectCyAC6ActionOs5NeverOGvp",
+            "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC6action7Combine18PassthroughSubjectCyAC6ActionOs5NeverOGvp",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PassthroughSubject",
+                    "printedName": "Combine.PassthroughSubject<ProximiioMapLibre.PIOGuidance.Action, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "ProximiioMapLibre.PIOGuidance.Action",
+                        "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine18PassthroughSubjectC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC6action7Combine18PassthroughSubjectCyAC6ActionOs5NeverOGvg",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC6action7Combine18PassthroughSubjectCyAC6ActionOs5NeverOGvg",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PassthroughSubject",
+                    "printedName": "Combine.PassthroughSubject<ProximiioMapLibre.PIOGuidance.Action, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "ProximiioMapLibre.PIOGuidance.Action",
+                        "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine18PassthroughSubjectC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC6action7Combine18PassthroughSubjectCyAC6ActionOs5NeverOGvs",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC6action7Combine18PassthroughSubjectCyAC6ActionOs5NeverOGvs",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC6action7Combine18PassthroughSubjectCyAC6ActionOs5NeverOGvM",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC6action7Combine18PassthroughSubjectCyAC6ActionOs5NeverOGvM",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stepImmediateThreshold",
+            "printedName": "stepImmediateThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre11PIOGuidanceC22stepImmediateThresholdSdvp",
+            "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC22stepImmediateThresholdSdvp",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC22stepImmediateThresholdSdvg",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC22stepImmediateThresholdSdvg",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC22stepImmediateThresholdSdvs",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC22stepImmediateThresholdSdvs",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC22stepImmediateThresholdSdvM",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC22stepImmediateThresholdSdvM",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stepPreparationThreshold",
+            "printedName": "stepPreparationThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre11PIOGuidanceC24stepPreparationThresholdSdvp",
+            "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC24stepPreparationThresholdSdvp",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC24stepPreparationThresholdSdvg",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC24stepPreparationThresholdSdvg",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC24stepPreparationThresholdSdvs",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC24stepPreparationThresholdSdvs",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC24stepPreparationThresholdSdvM",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC24stepPreparationThresholdSdvM",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isPreview",
+            "printedName": "isPreview",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre11PIOGuidanceC9isPreviewSbvp",
+            "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC9isPreviewSbvp",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC9isPreviewSbvg",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC9isPreviewSbvg",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC9isPreviewSbvs",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC9isPreviewSbvs",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC9isPreviewSbvM",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC9isPreviewSbvM",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "ttsHeadingCorrectionEnabled",
+            "printedName": "ttsHeadingCorrectionEnabled(enabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ProximiioMapLibre11PIOGuidanceC27ttsHeadingCorrectionEnabled7enabledySb_tF",
+            "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC27ttsHeadingCorrectionEnabled7enabledySb_tF",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ttsHeadingCorrectionRepeat",
+            "printedName": "ttsHeadingCorrectionRepeat(enabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ProximiioMapLibre11PIOGuidanceC26ttsHeadingCorrectionRepeat7enabledySb_tF",
+            "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC26ttsHeadingCorrectionRepeat7enabledySb_tF",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ttsHeadingCorrectionThresholds",
+            "printedName": "ttsHeadingCorrectionThresholds(thresholdMeters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ProximiioMapLibre11PIOGuidanceC30ttsHeadingCorrectionThresholds15thresholdMetersySd_tF",
+            "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC30ttsHeadingCorrectionThresholds15thresholdMetersySd_tF",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ttsHeadingCorrectionWrongWayCancel",
+            "printedName": "ttsHeadingCorrectionWrongWayCancel(after:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ProximiioMapLibre11PIOGuidanceC34ttsHeadingCorrectionWrongWayCancel5afterySi_tF",
+            "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC34ttsHeadingCorrectionWrongWayCancel5afterySi_tF",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ttsHeadingCorrectionWrongWayCancel",
+            "printedName": "ttsHeadingCorrectionWrongWayCancel(enabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ProximiioMapLibre11PIOGuidanceC34ttsHeadingCorrectionWrongWayCancel7enabledySb_tF",
+            "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC34ttsHeadingCorrectionWrongWayCancel7enabledySb_tF",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Route",
+            "printedName": "Route",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "on",
+                "printedName": "on",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ProximiioMapLibre.PIOGuidance.Route.Type) -> (ProximiioMapLibre.PIORoute?) -> ProximiioMapLibre.PIOGuidance.Route",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ProximiioMapLibre.PIORoute?) -> ProximiioMapLibre.PIOGuidance.Route",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Route",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Route",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC5RouteO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "ProximiioMapLibre.PIORoute?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "PIORoute",
+                                "printedName": "ProximiioMapLibre.PIORoute",
+                                "usr": "c:@M@ProximiioMapLibre@objc(cs)PIORoute"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ProximiioMapLibre.PIOGuidance.Route.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Route",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Route",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC5RouteO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC5RouteO2onyAeA8PIORouteCSgcAEmF",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC5RouteO2onyAeA8PIORouteCSgcAEmF",
+                "moduleName": "ProximiioMapLibre"
+              },
+              {
+                "kind": "Var",
+                "name": "event",
+                "printedName": "event",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ProximiioMapLibre.PIOGuidance.Route.Type) -> (ProximiioMapLibre.PIORouteUpdateType, Swift.String, Swift.String?, ProximiioMapLibre.PIORouteUpdateData?) -> ProximiioMapLibre.PIOGuidance.Route",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ProximiioMapLibre.PIORouteUpdateType, Swift.String, Swift.String?, ProximiioMapLibre.PIORouteUpdateData?) -> ProximiioMapLibre.PIOGuidance.Route",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Route",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Route",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC5RouteO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(type: ProximiioMapLibre.PIORouteUpdateType, text: Swift.String, additionalText: Swift.String?, data: ProximiioMapLibre.PIORouteUpdateData?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "PIORouteUpdateType",
+                                "printedName": "ProximiioMapLibre.PIORouteUpdateType",
+                                "usr": "c:@M@ProximiioMapLibre@E@PIORouteUpdateType"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.String?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "ProximiioMapLibre.PIORouteUpdateData?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "PIORouteUpdateData",
+                                    "printedName": "ProximiioMapLibre.PIORouteUpdateData",
+                                    "usr": "c:@M@ProximiioMapLibre@objc(cs)PIORouteUpdateData"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ProximiioMapLibre.PIOGuidance.Route.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Route",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Route",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC5RouteO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC5RouteO5eventyAeA18PIORouteUpdateTypeO_S2SSgAA0gH4DataCSgtcAEmF",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC5RouteO5eventyAeA18PIORouteUpdateTypeO_S2SSgAA0gH4DataCSgtcAEmF",
+                "moduleName": "ProximiioMapLibre"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:17ProximiioMapLibre11PIOGuidanceC5RouteO",
+            "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC5RouteO",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Event",
+            "printedName": "Event",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "entered",
+                "printedName": "entered",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ProximiioMapLibre.PIOGuidance.Event.Type) -> (Proximiio.ProximiioGeoJSON) -> ProximiioMapLibre.PIOGuidance.Event",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Proximiio.ProximiioGeoJSON) -> ProximiioMapLibre.PIOGuidance.Event",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Event",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProximiioGeoJSON",
+                            "printedName": "Proximiio.ProximiioGeoJSON",
+                            "usr": "c:objc(cs)ProximiioGeoJSON"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ProximiioMapLibre.PIOGuidance.Event.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Event",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC5EventO7enteredyAESo0A7GeoJSONCcAEmF",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC5EventO7enteredyAESo0A7GeoJSONCcAEmF",
+                "moduleName": "ProximiioMapLibre"
+              },
+              {
+                "kind": "Var",
+                "name": "exit",
+                "printedName": "exit",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ProximiioMapLibre.PIOGuidance.Event.Type) -> (Proximiio.ProximiioGeoJSON) -> ProximiioMapLibre.PIOGuidance.Event",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Proximiio.ProximiioGeoJSON) -> ProximiioMapLibre.PIOGuidance.Event",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Event",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProximiioGeoJSON",
+                            "printedName": "Proximiio.ProximiioGeoJSON",
+                            "usr": "c:objc(cs)ProximiioGeoJSON"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ProximiioMapLibre.PIOGuidance.Event.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Event",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC5EventO4exityAESo0A7GeoJSONCcAEmF",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC5EventO4exityAESo0A7GeoJSONCcAEmF",
+                "moduleName": "ProximiioMapLibre"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:17ProximiioMapLibre11PIOGuidanceC5EventO",
+            "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC5EventO",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "EventList",
+            "printedName": "EventList",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "entered",
+                "printedName": "entered",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ProximiioMapLibre.PIOGuidance.EventList.Type) -> ([ProximiioMapLibre.PIOLandmark]) -> ProximiioMapLibre.PIOGuidance.EventList",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "([ProximiioMapLibre.PIOLandmark]) -> ProximiioMapLibre.PIOGuidance.EventList",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventList",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.EventList",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC9EventListO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[ProximiioMapLibre.PIOLandmark]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "PIOLandmark",
+                                "printedName": "ProximiioMapLibre.PIOLandmark",
+                                "usr": "c:@M@ProximiioMapLibre@objc(cs)PIOLandmark"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ProximiioMapLibre.PIOGuidance.EventList.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventList",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.EventList",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC9EventListO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC9EventListO7enteredyAESayAA11PIOLandmarkCGcAEmF",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC9EventListO7enteredyAESayAA11PIOLandmarkCGcAEmF",
+                "moduleName": "ProximiioMapLibre"
+              },
+              {
+                "kind": "Var",
+                "name": "exit",
+                "printedName": "exit",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ProximiioMapLibre.PIOGuidance.EventList.Type) -> ([Proximiio.ProximiioGeoJSON]) -> ProximiioMapLibre.PIOGuidance.EventList",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "([Proximiio.ProximiioGeoJSON]) -> ProximiioMapLibre.PIOGuidance.EventList",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventList",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.EventList",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC9EventListO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[Proximiio.ProximiioGeoJSON]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProximiioGeoJSON",
+                                "printedName": "Proximiio.ProximiioGeoJSON",
+                                "usr": "c:objc(cs)ProximiioGeoJSON"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ProximiioMapLibre.PIOGuidance.EventList.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventList",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.EventList",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC9EventListO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC9EventListO4exityAESaySo0A7GeoJSONCGcAEmF",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC9EventListO4exityAESaySo0A7GeoJSONCGcAEmF",
+                "moduleName": "ProximiioMapLibre"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:17ProximiioMapLibre11PIOGuidanceC9EventListO",
+            "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC9EventListO",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Action",
+            "printedName": "Action",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "route",
+                "printedName": "route",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ProximiioMapLibre.PIOGuidance.Action.Type) -> (ProximiioMapLibre.PIOGuidance.Route) -> ProximiioMapLibre.PIOGuidance.Action",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ProximiioMapLibre.PIOGuidance.Route) -> ProximiioMapLibre.PIOGuidance.Action",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Action",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Route",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Route",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC5RouteO"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ProximiioMapLibre.PIOGuidance.Action.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Action",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO5routeyAeC5RouteOcAEmF",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC6ActionO5routeyAeC5RouteOcAEmF",
+                "moduleName": "ProximiioMapLibre"
+              },
+              {
+                "kind": "Var",
+                "name": "hazard",
+                "printedName": "hazard",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ProximiioMapLibre.PIOGuidance.Action.Type) -> (ProximiioMapLibre.PIOGuidance.Event) -> ProximiioMapLibre.PIOGuidance.Action",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ProximiioMapLibre.PIOGuidance.Event) -> ProximiioMapLibre.PIOGuidance.Action",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Action",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Event",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC5EventO"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ProximiioMapLibre.PIOGuidance.Action.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Action",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO6hazardyAeC5EventOcAEmF",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC6ActionO6hazardyAeC5EventOcAEmF",
+                "moduleName": "ProximiioMapLibre"
+              },
+              {
+                "kind": "Var",
+                "name": "segment",
+                "printedName": "segment",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ProximiioMapLibre.PIOGuidance.Action.Type) -> (ProximiioMapLibre.PIOGuidance.Event) -> ProximiioMapLibre.PIOGuidance.Action",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ProximiioMapLibre.PIOGuidance.Event) -> ProximiioMapLibre.PIOGuidance.Action",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Action",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Event",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC5EventO"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ProximiioMapLibre.PIOGuidance.Action.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Action",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO7segmentyAeC5EventOcAEmF",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC6ActionO7segmentyAeC5EventOcAEmF",
+                "moduleName": "ProximiioMapLibre"
+              },
+              {
+                "kind": "Var",
+                "name": "decision",
+                "printedName": "decision",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ProximiioMapLibre.PIOGuidance.Action.Type) -> (ProximiioMapLibre.PIOGuidance.Event) -> ProximiioMapLibre.PIOGuidance.Action",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ProximiioMapLibre.PIOGuidance.Event) -> ProximiioMapLibre.PIOGuidance.Action",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Action",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Event",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC5EventO"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ProximiioMapLibre.PIOGuidance.Action.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Action",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO8decisionyAeC5EventOcAEmF",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC6ActionO8decisionyAeC5EventOcAEmF",
+                "moduleName": "ProximiioMapLibre"
+              },
+              {
+                "kind": "Var",
+                "name": "landmark",
+                "printedName": "landmark",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ProximiioMapLibre.PIOGuidance.Action.Type) -> (ProximiioMapLibre.PIOGuidance.EventList) -> ProximiioMapLibre.PIOGuidance.Action",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ProximiioMapLibre.PIOGuidance.EventList) -> ProximiioMapLibre.PIOGuidance.Action",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Action",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventList",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.EventList",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC9EventListO"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ProximiioMapLibre.PIOGuidance.Action.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Action",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO8landmarkyAeC9EventListOcAEmF",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC6ActionO8landmarkyAeC9EventListOcAEmF",
+                "moduleName": "ProximiioMapLibre"
+              },
+              {
+                "kind": "Var",
+                "name": "tts",
+                "printedName": "tts",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ProximiioMapLibre.PIOGuidance.Action.Type) -> ProximiioMapLibre.PIOGuidance.Action",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "ProximiioMapLibre.PIOGuidance.Action",
+                        "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ProximiioMapLibre.PIOGuidance.Action.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Action",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO3ttsyA2EmF",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC6ActionO3ttsyA2EmF",
+                "moduleName": "ProximiioMapLibre"
+              },
+              {
+                "kind": "Var",
+                "name": "ttsText",
+                "printedName": "ttsText",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ProximiioMapLibre.PIOGuidance.Action.Type) -> (Swift.String?) -> ProximiioMapLibre.PIOGuidance.Action",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String?) -> ProximiioMapLibre.PIOGuidance.Action",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Action",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ProximiioMapLibre.PIOGuidance.Action.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "ProximiioMapLibre.PIOGuidance.Action",
+                            "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO7ttsTextyAESSSgcAEmF",
+                "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC6ActionO7ttsTextyAESSSgcAEmF",
+                "moduleName": "ProximiioMapLibre"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:17ProximiioMapLibre11PIOGuidanceC6ActionO",
+            "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC6ActionO",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17ProximiioMapLibre11PIOGuidanceC",
+        "mangledName": "$s17ProximiioMapLibre11PIOGuidanceC",
+        "moduleName": "ProximiioMapLibre",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -15830,6 +17960,546 @@
         "moduleName": "ProximiioMapLibre"
       },
       {
+        "kind": "TypeDecl",
+        "name": "PIOGuidanceTTS",
+        "printedName": "PIOGuidanceTTS",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PIOGuidanceTTS",
+                "printedName": "ProximiioMapLibre.PIOGuidanceTTS",
+                "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC6sharedACvpZ",
+            "mangledName": "$s17ProximiioMapLibre14PIOGuidanceTTSC6sharedACvpZ",
+            "moduleName": "ProximiioMapLibre",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PIOGuidanceTTS",
+                    "printedName": "ProximiioMapLibre.PIOGuidanceTTS",
+                    "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC6sharedACvgZ",
+                "mangledName": "$s17ProximiioMapLibre14PIOGuidanceTTSC6sharedACvgZ",
+                "moduleName": "ProximiioMapLibre",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isPreview",
+            "printedName": "isPreview",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC9isPreviewSbvp",
+            "mangledName": "$s17ProximiioMapLibre14PIOGuidanceTTSC9isPreviewSbvp",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC9isPreviewSbvg",
+                "mangledName": "$s17ProximiioMapLibre14PIOGuidanceTTSC9isPreviewSbvg",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC9isPreviewSbvs",
+                "mangledName": "$s17ProximiioMapLibre14PIOGuidanceTTSC9isPreviewSbvs",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC9isPreviewSbvM",
+                "mangledName": "$s17ProximiioMapLibre14PIOGuidanceTTSC9isPreviewSbvM",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "action",
+            "printedName": "action",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PassthroughSubject",
+                "printedName": "Combine.PassthroughSubject<ProximiioMapLibre.PIOGuidanceTTS.Action, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Action",
+                    "printedName": "ProximiioMapLibre.PIOGuidanceTTS.Action",
+                    "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC6ActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine18PassthroughSubjectC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC6action7Combine18PassthroughSubjectCyAC6ActionOs5NeverOGvp",
+            "mangledName": "$s17ProximiioMapLibre14PIOGuidanceTTSC6action7Combine18PassthroughSubjectCyAC6ActionOs5NeverOGvp",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PassthroughSubject",
+                    "printedName": "Combine.PassthroughSubject<ProximiioMapLibre.PIOGuidanceTTS.Action, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "ProximiioMapLibre.PIOGuidanceTTS.Action",
+                        "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC6ActionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine18PassthroughSubjectC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC6action7Combine18PassthroughSubjectCyAC6ActionOs5NeverOGvg",
+                "mangledName": "$s17ProximiioMapLibre14PIOGuidanceTTSC6action7Combine18PassthroughSubjectCyAC6ActionOs5NeverOGvg",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PassthroughSubject",
+                    "printedName": "Combine.PassthroughSubject<ProximiioMapLibre.PIOGuidanceTTS.Action, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "ProximiioMapLibre.PIOGuidanceTTS.Action",
+                        "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC6ActionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine18PassthroughSubjectC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC6action7Combine18PassthroughSubjectCyAC6ActionOs5NeverOGvs",
+                "mangledName": "$s17ProximiioMapLibre14PIOGuidanceTTSC6action7Combine18PassthroughSubjectCyAC6ActionOs5NeverOGvs",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC6action7Combine18PassthroughSubjectCyAC6ActionOs5NeverOGvM",
+                "mangledName": "$s17ProximiioMapLibre14PIOGuidanceTTSC6action7Combine18PassthroughSubjectCyAC6ActionOs5NeverOGvM",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headingCorrectionEnabled",
+            "printedName": "headingCorrectionEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC24headingCorrectionEnabledSbvp",
+            "mangledName": "$s17ProximiioMapLibre14PIOGuidanceTTSC24headingCorrectionEnabledSbvp",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC24headingCorrectionEnabledSbvg",
+                "mangledName": "$s17ProximiioMapLibre14PIOGuidanceTTSC24headingCorrectionEnabledSbvg",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headingCorrectionAllowsRepeat",
+            "printedName": "headingCorrectionAllowsRepeat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC29headingCorrectionAllowsRepeatSbvp",
+            "mangledName": "$s17ProximiioMapLibre14PIOGuidanceTTSC29headingCorrectionAllowsRepeatSbvp",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC29headingCorrectionAllowsRepeatSbvg",
+                "mangledName": "$s17ProximiioMapLibre14PIOGuidanceTTSC29headingCorrectionAllowsRepeatSbvg",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "resetLastSpoken",
+            "printedName": "resetLastSpoken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC15resetLastSpokenyyF",
+            "mangledName": "$s17ProximiioMapLibre14PIOGuidanceTTSC15resetLastSpokenyyF",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "speakTts",
+            "printedName": "speakTts(text:priority:force:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC8speakTts4text8priority5forceySS_S2btF",
+            "mangledName": "$s17ProximiioMapLibre14PIOGuidanceTTSC8speakTts4text8priority5forceySS_S2btF",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Action",
+            "printedName": "Action",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "onTTS",
+                "printedName": "onTTS",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ProximiioMapLibre.PIOGuidanceTTS.Action.Type) -> ProximiioMapLibre.PIOGuidanceTTS.Action",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "ProximiioMapLibre.PIOGuidanceTTS.Action",
+                        "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC6ActionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ProximiioMapLibre.PIOGuidanceTTS.Action.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "ProximiioMapLibre.PIOGuidanceTTS.Action",
+                            "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC6ActionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC6ActionO02onE0yA2EmF",
+                "mangledName": "$s17ProximiioMapLibre14PIOGuidanceTTSC6ActionO02onE0yA2EmF",
+                "moduleName": "ProximiioMapLibre"
+              },
+              {
+                "kind": "Var",
+                "name": "ttsText",
+                "printedName": "ttsText",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ProximiioMapLibre.PIOGuidanceTTS.Action.Type) -> (Swift.String?) -> ProximiioMapLibre.PIOGuidanceTTS.Action",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String?) -> ProximiioMapLibre.PIOGuidanceTTS.Action",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "ProximiioMapLibre.PIOGuidanceTTS.Action",
+                            "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC6ActionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ProximiioMapLibre.PIOGuidanceTTS.Action.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "ProximiioMapLibre.PIOGuidanceTTS.Action",
+                            "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC6ActionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC6ActionO7ttsTextyAESSSgcAEmF",
+                "mangledName": "$s17ProximiioMapLibre14PIOGuidanceTTSC6ActionO7ttsTextyAESSSgcAEmF",
+                "moduleName": "ProximiioMapLibre"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC6ActionO",
+            "mangledName": "$s17ProximiioMapLibre14PIOGuidanceTTSC6ActionO",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17ProximiioMapLibre14PIOGuidanceTTSC",
+        "mangledName": "$s17ProximiioMapLibre14PIOGuidanceTTSC",
+        "moduleName": "ProximiioMapLibre",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -19186,6 +21856,34 @@
           },
           {
             "kind": "Function",
+            "name": "setReRouting",
+            "printedName": "setReRouting(enabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ProximiioMapLibre@objc(cs)PIONavigation(im)setReRoutingWithEnabled:",
+            "mangledName": "$s17ProximiioMapLibre13PIONavigationC12setReRouting7enabledySb_tF",
+            "moduleName": "ProximiioMapLibre",
+            "objc_name": "setReRoutingWithEnabled:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setMapboxMap",
             "printedName": "setMapboxMap(mapboxMap:)",
             "children": [
@@ -19761,8 +22459,36 @@
           },
           {
             "kind": "Function",
+            "name": "ttsHeadingCorrectionRepeat",
+            "printedName": "ttsHeadingCorrectionRepeat(enabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ProximiioMapLibre@objc(cs)PIONavigation(im)ttsHeadingCorrectionRepeatWithEnabled:",
+            "mangledName": "$s17ProximiioMapLibre13PIONavigationC26ttsHeadingCorrectionRepeat7enabledySb_tF",
+            "moduleName": "ProximiioMapLibre",
+            "objc_name": "ttsHeadingCorrectionRepeatWithEnabled:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "ttsHeadingCorrectionThreshold",
-            "printedName": "ttsHeadingCorrectionThreshold(meters:degrees:)",
+            "printedName": "ttsHeadingCorrectionThreshold(meters:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -19774,22 +22500,72 @@
                 "name": "Double",
                 "printedName": "Swift.Double",
                 "usr": "s:Sd"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ProximiioMapLibre@objc(cs)PIONavigation(im)ttsHeadingCorrectionThresholdWithMeters:degrees:",
-            "mangledName": "$s17ProximiioMapLibre13PIONavigationC29ttsHeadingCorrectionThreshold6meters7degreesySd_SdtF",
+            "usr": "c:@M@ProximiioMapLibre@objc(cs)PIONavigation(im)ttsHeadingCorrectionThresholdWithMeters:",
+            "mangledName": "$s17ProximiioMapLibre13PIONavigationC29ttsHeadingCorrectionThreshold6metersySd_tF",
             "moduleName": "ProximiioMapLibre",
-            "objc_name": "ttsHeadingCorrectionThresholdWithMeters:degrees:",
+            "objc_name": "ttsHeadingCorrectionThresholdWithMeters:",
             "declAttributes": [
               "ObjC",
               "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ttsHeadingCorrectionWrongWayCancel",
+            "printedName": "ttsHeadingCorrectionWrongWayCancel(after:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ProximiioMapLibre@objc(cs)PIONavigation(im)ttsHeadingCorrectionWrongWayCancelAfter:",
+            "mangledName": "$s17ProximiioMapLibre13PIONavigationC34ttsHeadingCorrectionWrongWayCancel5afterySi_tF",
+            "moduleName": "ProximiioMapLibre",
+            "objc_name": "ttsHeadingCorrectionWrongWayCancelAfter:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ttsHeadingCorrectionWrongWayCancel",
+            "printedName": "ttsHeadingCorrectionWrongWayCancel(enabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ProximiioMapLibre@objc(cs)PIONavigation(im)ttsHeadingCorrectionWrongWayCancelWithEnabled:",
+            "mangledName": "$s17ProximiioMapLibre13PIONavigationC34ttsHeadingCorrectionWrongWayCancel7enabledySb_tF",
+            "moduleName": "ProximiioMapLibre",
+            "objc_name": "ttsHeadingCorrectionWrongWayCancelWithEnabled:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -24046,7 +26822,6 @@
             "sugared_genericSig": "<Self where Self : ProximiioMapLibre.PIONavigationDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -24404,8 +27179,39 @@
           },
           {
             "kind": "Function",
+            "name": "ttsHeadingCorrectionRepeat",
+            "printedName": "ttsHeadingCorrectionRepeat(enabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ProximiioMapLibre@objc(pl)PIONavigationDelegate(im)ttsHeadingCorrectionRepeatWithEnabled:",
+            "mangledName": "$s17ProximiioMapLibre21PIONavigationDelegateP26ttsHeadingCorrectionRepeat7enabledySb_tF",
+            "moduleName": "ProximiioMapLibre",
+            "genericSig": "<τ_0_0 where τ_0_0 : ProximiioMapLibre.PIONavigationDelegate>",
+            "sugared_genericSig": "<Self where Self : ProximiioMapLibre.PIONavigationDelegate>",
+            "protocolReq": true,
+            "objc_name": "ttsHeadingCorrectionRepeatWithEnabled:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "ttsHeadingCorrectionThreshold",
-            "printedName": "ttsHeadingCorrectionThreshold(meters:degrees:)",
+            "printedName": "ttsHeadingCorrectionThreshold(meters:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -24417,22 +27223,16 @@
                 "name": "Double",
                 "printedName": "Swift.Double",
                 "usr": "s:Sd"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ProximiioMapLibre@objc(pl)PIONavigationDelegate(im)ttsHeadingCorrectionThresholdWithMeters:degrees:",
-            "mangledName": "$s17ProximiioMapLibre21PIONavigationDelegateP29ttsHeadingCorrectionThreshold6meters7degreesySd_SdtF",
+            "usr": "c:@M@ProximiioMapLibre@objc(pl)PIONavigationDelegate(im)ttsHeadingCorrectionThresholdWithMeters:",
+            "mangledName": "$s17ProximiioMapLibre21PIONavigationDelegateP29ttsHeadingCorrectionThreshold6metersySd_tF",
             "moduleName": "ProximiioMapLibre",
             "genericSig": "<τ_0_0 where τ_0_0 : ProximiioMapLibre.PIONavigationDelegate>",
             "sugared_genericSig": "<Self where Self : ProximiioMapLibre.PIONavigationDelegate>",
             "protocolReq": true,
-            "objc_name": "ttsHeadingCorrectionThresholdWithMeters:degrees:",
+            "objc_name": "ttsHeadingCorrectionThresholdWithMeters:",
             "declAttributes": [
               "ObjC"
             ],
@@ -28816,7 +31616,7 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Network\/PIOFailover.swift",
       "kind": "StringLiteral",
-      "offset": 544,
+      "offset": 496,
       "length": 24,
       "value": "\"https:\/\/api.proximi.fi\""
     },
@@ -29159,30 +31959,58 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
       "kind": "FloatLiteral",
-      "offset": 418,
+      "offset": 440,
       "length": 3,
-      "value": "8.0"
+      "value": "3.5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 555,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 646,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 936,
+      "length": 33,
+      "value": "\"com.proximiio.headingCorrection\""
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
       "kind": "FloatLiteral",
-      "offset": 456,
+      "offset": 1018,
       "length": 4,
-      "value": "25.0"
+      "value": "38.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 2921,
-      "length": 4,
-      "value": "90.0"
+      "kind": "IntegerLiteral",
+      "offset": 1197,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 2968,
-      "length": 4,
-      "value": "14.0"
+      "kind": "IntegerLiteral",
+      "offset": 1250,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1294,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/Osrm\/PIORouteResponse.swift",
@@ -29208,35 +32036,35 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
       "kind": "FloatLiteral",
-      "offset": 1042,
+      "offset": 1064,
       "length": 3,
-      "value": "2.0"
+      "value": "1.5"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
       "kind": "FloatLiteral",
-      "offset": 1088,
+      "offset": 1110,
       "length": 3,
-      "value": "4.5"
+      "value": "3.5"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
       "kind": "BooleanLiteral",
-      "offset": 1119,
+      "offset": 1141,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
       "kind": "BooleanLiteral",
-      "offset": 4518,
+      "offset": 4924,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
       "kind": "BooleanLiteral",
-      "offset": 7249,
+      "offset": 8978,
       "length": 5,
       "value": "false"
     },
@@ -29831,56 +32659,56 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 26442,
+      "offset": 26438,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 26469,
+      "offset": 26465,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 29330,
+      "offset": 29326,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 29351,
+      "offset": 29347,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 30050,
+      "offset": 30046,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 30071,
+      "offset": 30067,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 30620,
+      "offset": 30616,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 30641,
+      "offset": 30637,
       "length": 4,
       "value": "true"
     },
@@ -30026,190 +32854,204 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 854,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "Dictionary",
-      "offset": 784,
+      "offset": 915,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1706,
+      "offset": 1837,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "BooleanLiteral",
-      "offset": 30068,
+      "offset": 34579,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "BooleanLiteral",
-      "offset": 30256,
+      "offset": 34767,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 337,
+      "offset": 351,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 446,
+      "offset": 472,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 544,
+      "offset": 538,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "kind": "BooleanLiteral",
+      "offset": 635,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "FloatLiteral",
-      "offset": 599,
+      "offset": 690,
       "length": 4,
       "value": "25.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 654,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 811,
+      "offset": 861,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 846,
+      "offset": 896,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 886,
+      "offset": 936,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 939,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
-      "kind": "BooleanLiteral",
-      "offset": 974,
+      "offset": 971,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "FloatLiteral",
-      "offset": 1083,
+      "offset": 1080,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1148,
+      "kind": "FloatLiteral",
+      "offset": 1137,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1182,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
+      "kind": "FloatLiteral",
+      "offset": 1296,
       "length": 4,
-      "value": "5000"
+      "value": "20.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 1189,
+      "offset": 1477,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 1360,
+      "offset": 1500,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 1383,
+      "offset": 5170,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 4649,
+      "offset": 5242,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 4721,
+      "offset": 5320,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 4799,
+      "offset": 5355,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 4834,
+      "offset": 5425,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 4904,
+      "offset": 5539,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 5018,
+      "offset": 8596,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 8051,
+      "offset": 11304,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 10741,
+      "offset": 11325,
       "length": 5,
       "value": "false"
     },
@@ -30265,14 +33107,14 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigationMapboxPathManager.swift",
       "kind": "StringLiteral",
-      "offset": 2391,
+      "offset": 2367,
       "length": 7,
       "value": "\"route\""
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigationMapboxPathManager.swift",
       "kind": "StringLiteral",
-      "offset": 2730,
+      "offset": 2706,
       "length": 7,
       "value": "\"route\""
     },
@@ -30460,6 +33302,20 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
+      "kind": "StringLiteral",
+      "offset": 627,
+      "length": 22,
+      "value": "\"🚠 LEVEL: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
+      "kind": "StringLiteral",
+      "offset": 648,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "IntegerLiteral",
       "offset": 581,
       "length": 1,
@@ -30468,84 +33324,91 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 614,
+      "offset": 698,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "FloatLiteral",
-      "offset": 769,
+      "offset": 853,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 900,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "FloatLiteral",
-      "offset": 825,
+      "offset": 948,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 881,
+      "offset": 1004,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 931,
+      "offset": 1054,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "IntegerLiteral",
-      "offset": 5522,
+      "offset": 6145,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 5993,
+      "offset": 6616,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 6029,
+      "offset": 6652,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 6070,
+      "offset": 6693,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "IntegerLiteral",
-      "offset": 6197,
+      "offset": 6773,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 6833,
+      "offset": 7416,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 9231,
+      "offset": 9814,
       "length": 5,
       "value": "false"
     },

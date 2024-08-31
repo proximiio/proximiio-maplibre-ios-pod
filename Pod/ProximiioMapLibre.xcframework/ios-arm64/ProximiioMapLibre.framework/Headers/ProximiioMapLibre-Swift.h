@@ -348,6 +348,13 @@ typedef SWIFT_ENUM(NSInteger, PIOGuidanceDirection, open) {
 };
 
 
+SWIFT_CLASS("_TtC17ProximiioMapLibre35PIOGuidanceHeadingCorrectionManager")
+@interface PIOGuidanceHeadingCorrectionManager : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_PROTOCOL("_TtP17ProximiioMapLibre17PIOHazardCallback_")
 @protocol PIOHazardCallback
 - (void)enteredHazardRangeWithHazard:(ProximiioGeoJSON * _Nonnull)hazard;
@@ -415,7 +422,8 @@ SWIFT_PROTOCOL("_TtP17ProximiioMapLibre21PIONavigationDelegate_")
 - (void)ttsDecisionAlertWithEnabled:(BOOL)enabled metadataKeys:(NSArray<NSNumber *> * _Nonnull)metadataKeys;
 - (void)ttsLevelChangerMetadataKeysWithMetadataKeys:(NSArray<NSNumber *> * _Nonnull)metadataKeys;
 - (void)ttsHeadingCorrectionWithEnabled:(BOOL)enabled;
-- (void)ttsHeadingCorrectionThresholdWithMeters:(double)meters degrees:(double)degrees;
+- (void)ttsHeadingCorrectionRepeatWithEnabled:(BOOL)enabled;
+- (void)ttsHeadingCorrectionThresholdWithMeters:(double)meters;
 - (void)ttsLandmarkAlertWithEnabled:(BOOL)enabled metadataKeys:(NSArray<NSNumber *> * _Nonnull)metadataKeys;
 - (void)ttsMetadataKeysWithIndexes:(NSArray<NSNumber *> * _Nonnull)indexes;
 - (void)ttsRepeatLastInstruction;
@@ -446,6 +454,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) PIONavigatio
 - (void)setRouteFinishThresholdInMeters:(double)threshold;
 - (void)setReRoutingInMeters:(double)threshold;
 - (void)setReRoutingWithAutomatic:(BOOL)automatic;
+- (void)setReRoutingWithEnabled:(BOOL)enabled;
 - (void)setMapboxMapWithMapboxMap:(MGLMapView * _Nullable)mapboxMap;
 - (void)setUnitConversionWithConversion:(PIOUnitConversion * _Nonnull)conversion;
 - (void)hazardCallbackWithCallback:(id <PIOHazardCallback> _Nullable)callback;
@@ -462,7 +471,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) PIONavigatio
 - (void)ttsDecisionAlertWithEnabled:(BOOL)enabled metadataKeys:(NSArray<NSNumber *> * _Nonnull)metadataKeys;
 - (void)ttsLevelChangerMetadataKeysWithMetadataKeys:(NSArray<NSNumber *> * _Nonnull)metadataKeys;
 - (void)ttsHeadingCorrectionWithEnabled:(BOOL)enabled;
-- (void)ttsHeadingCorrectionThresholdWithMeters:(double)meters degrees:(double)degrees;
+- (void)ttsHeadingCorrectionRepeatWithEnabled:(BOOL)enabled;
+- (void)ttsHeadingCorrectionThresholdWithMeters:(double)meters;
+- (void)ttsHeadingCorrectionWrongWayCancelAfter:(NSInteger)after;
+- (void)ttsHeadingCorrectionWrongWayCancelWithEnabled:(BOOL)enabled;
 - (void)ttsMetadataKeysWithIndexes:(NSArray<NSNumber *> * _Nonnull)indexes;
 - (void)ttsRepeatLastInstruction;
 - (void)ttsReassuranceInstructionWithEnabled:(BOOL)enabled;
@@ -698,6 +710,16 @@ SWIFT_CLASS("_TtC17ProximiioMapLibre17PIOUnitConversion")
 @end
 
 
+SWIFT_CLASS("_TtCC17ProximiioMapLibre17PIOUnitConversion7Builder")
+@interface Builder : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface PIOUnitConversion (SWIFT_EXTENSION(ProximiioMapLibre))
+@end
+
+
 SWIFT_CLASS("_TtCC17ProximiioMapLibre17PIOUnitConversion9UnitStage")
 @interface UnitStage : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull unitName;
@@ -707,16 +729,6 @@ SWIFT_CLASS("_TtCC17ProximiioMapLibre17PIOUnitConversion9UnitStage")
 - (nonnull instancetype)initWithUnitName:(NSString * _Nonnull)unitName unitConversionToMeters:(double)unitConversionToMeters minValueInMeters:(double)minValueInMeters decimals:(NSInteger)decimals OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-@interface PIOUnitConversion (SWIFT_EXTENSION(ProximiioMapLibre))
-@end
-
-
-SWIFT_CLASS("_TtCC17ProximiioMapLibre17PIOUnitConversion7Builder")
-@interface Builder : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -792,13 +804,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ProximiioMap
 @end
 
 
-
-
-
-
 @interface ProximiioMapLibre (SWIFT_EXTENSION(ProximiioMapLibre))
 - (void)sayWithText:(NSString * _Nonnull)text;
 @end
+
+
+
+
 
 
 
@@ -809,16 +821,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ProximiioMap
 
 
 @interface ProximiioMapLibre (SWIFT_EXTENSION(ProximiioMapLibre))
-- (void)floorUp;
-- (void)floorDown;
-- (void)floorAt:(NSInteger)floor;
+- (void)centerAtUserWithZoom:(double)zoom animated:(BOOL)animated completed:(void (^ _Nullable)(BOOL))completed;
+- (void)centerAtFeature:(ProximiioGeoJSON * _Nonnull)feature zoom:(double)zoom animated:(BOOL)animated completed:(void (^ _Nullable)(ProximiioGeoJSON * _Nonnull))completed;
+- (void)centerAt:(CLLocationCoordinate2D)coordinate zoom:(double)zoom animated:(BOOL)animated completed:(void (^ _Nullable)(BOOL))completed;
 @end
 
 
 @interface ProximiioMapLibre (SWIFT_EXTENSION(ProximiioMapLibre))
-- (void)centerAtUserWithZoom:(double)zoom animated:(BOOL)animated completed:(void (^ _Nullable)(BOOL))completed;
-- (void)centerAtFeature:(ProximiioGeoJSON * _Nonnull)feature zoom:(double)zoom animated:(BOOL)animated completed:(void (^ _Nullable)(ProximiioGeoJSON * _Nonnull))completed;
-- (void)centerAt:(CLLocationCoordinate2D)coordinate zoom:(double)zoom animated:(BOOL)animated completed:(void (^ _Nullable)(BOOL))completed;
+- (void)floorUp;
+- (void)floorDown;
+- (void)floorAt:(NSInteger)floor;
 @end
 
 

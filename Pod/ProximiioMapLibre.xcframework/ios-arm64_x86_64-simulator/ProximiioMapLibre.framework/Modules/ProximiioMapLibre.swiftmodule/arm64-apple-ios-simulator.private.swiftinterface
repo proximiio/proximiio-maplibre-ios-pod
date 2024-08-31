@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ProximiioMapLibre
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ProximiioMapLibre
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Alamofire
@@ -196,6 +196,19 @@ extension CLLocationCoordinate2D {
 extension PIOTurf {
   public static func inside(point: CLLocationCoordinate2D, poly: [Any]) -> Bool
 }
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class PIOGuidanceHeadingCorrectionManager : NSObject {
+  public static let shared: PIOGuidanceHeadingCorrectionManager
+  public var wrongWayThresholdMeters: Swift.Double
+  public var wrongWayCancelRouteAfter: Swift.Int
+  public var wrongWayCancelRouteEnabled: Swift.Bool
+  public var callback: PIOHeadingCorrectionCallback?
+  public var lastHeading: CLHeading?
+  public var wrongDirectionCount: Swift.Int {
+    get
+  }
+  public var stepCounts: () -> Int
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers @objc public class PIORouteResponse : NSObject {
   @objc deinit
 }
@@ -221,6 +234,45 @@ extension PIORouter {
   public func constructRoute(configuration: PIORouteConfiguration, splits: [PIORouteSplit]?) -> PIORoute?
   public func elaborateOsrm(from json: JSON, splits: [PIORouteSplit])
   public func elaborateOsrmSingle(from json: JSON, splits: [PIORouteSplit])
+}
+extension PIOGuidance {
+  public enum Route {
+    case on(PIORoute?)
+    case event(type: PIORouteUpdateType, text: String, additionalText: String?, data: PIORouteUpdateData?)
+  }
+  public enum Event {
+    case entered(ProximiioGeoJSON)
+    case exit(ProximiioGeoJSON)
+  }
+  public enum EventList {
+    case entered([PIOLandmark])
+    case exit([ProximiioGeoJSON])
+  }
+  public enum Action {
+    case route(Route)
+    case hazard(Event)
+    case segment(Event)
+    case decision(Event)
+    case landmark(EventList)
+    case tts
+    case ttsText(String?)
+  }
+}
+@_hasMissingDesignatedInitializers public class PIOGuidance {
+  public static let shared: PIOGuidance
+  public var action: Combine.PassthroughSubject<PIOGuidance.Action, Swift.Never>
+  public var stepImmediateThreshold: Swift.Double
+  public var stepPreparationThreshold: Swift.Double
+  public var isPreview: Swift.Bool {
+    get
+    set
+  }
+  public func ttsHeadingCorrectionEnabled(enabled: Bool)
+  public func ttsHeadingCorrectionRepeat(enabled: Bool)
+  public func ttsHeadingCorrectionThresholds(thresholdMeters: Double)
+  public func ttsHeadingCorrectionWrongWayCancel(after: Int)
+  public func ttsHeadingCorrectionWrongWayCancel(enabled: Bool)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class PIOHeading : NSObject {
   @objc public var text: String
@@ -466,6 +518,26 @@ extension ProximiioAmenity {
   public init(features: [ProximiioGeoJSON])
   @objc deinit
 }
+@_hasMissingDesignatedInitializers public class PIOGuidanceTTS {
+  public static let shared: PIOGuidanceTTS
+  public var isPreview: Swift.Bool
+  public var action: Combine.PassthroughSubject<PIOGuidanceTTS.Action, Swift.Never>
+  public var headingCorrectionEnabled: Swift.Bool {
+    get
+  }
+  public var headingCorrectionAllowsRepeat: Swift.Bool {
+    get
+  }
+  public func resetLastSpoken()
+  public func speakTts(text: String, priority: Bool = false, force: Bool = false)
+  @objc deinit
+}
+extension PIOGuidanceTTS {
+  public enum Action {
+    case onTTS
+    case ttsText(String?)
+  }
+}
 @_hasMissingDesignatedInitializers public class PIODebug {
   public enum PIODebugSource {
     case app, map, sdk, network, database, generic
@@ -563,6 +635,7 @@ extension AVSpeechUtterance {
   @objc public func setRouteFinishThreshold(inMeters threshold: Double)
   @objc public func setReRouting(inMeters threshold: Double)
   @objc public func setReRouting(automatic: Bool)
+  @objc public func setReRouting(enabled: Bool)
   @objc public func setMapboxMap(mapboxMap: MGLMapView?)
   @objc public func setUnitConversion(conversion: PIOUnitConversion)
   @objc public func hazardCallback(callback: PIOHazardCallback?)
@@ -579,7 +652,10 @@ extension AVSpeechUtterance {
   @objc public func ttsDecisionAlert(enabled: Bool, metadataKeys: [Int])
   @objc public func ttsLevelChangerMetadataKeys(metadataKeys: [Int])
   @objc public func ttsHeadingCorrection(enabled: Bool)
-  @objc public func ttsHeadingCorrectionThreshold(meters: Double, degrees: Double)
+  @objc public func ttsHeadingCorrectionRepeat(enabled: Bool)
+  @objc public func ttsHeadingCorrectionThreshold(meters: Double)
+  @objc public func ttsHeadingCorrectionWrongWayCancel(after: Int)
+  @objc public func ttsHeadingCorrectionWrongWayCancel(enabled: Bool)
   @objc public func ttsMetadataKeys(indexes: [Int])
   @objc public func ttsRepeatLastInstruction()
   @objc public func ttsReassuranceInstruction(enabled: Bool)
@@ -667,7 +743,8 @@ extension PIONavigation {
   @objc func ttsDecisionAlert(enabled: Bool, metadataKeys: [Int])
   @objc func ttsLevelChangerMetadataKeys(metadataKeys: [Int])
   @objc func ttsHeadingCorrection(enabled: Bool)
-  @objc func ttsHeadingCorrectionThreshold(meters: Double, degrees: Double)
+  @objc func ttsHeadingCorrectionRepeat(enabled: Bool)
+  @objc func ttsHeadingCorrectionThreshold(meters: Double)
   @objc func ttsLandmarkAlert(enabled: Bool, metadataKeys: [Int])
   @objc func ttsMetadataKeys(indexes: [Int])
   @objc func ttsRepeatLastInstruction()
