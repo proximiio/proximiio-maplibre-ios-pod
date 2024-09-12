@@ -480,8 +480,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) PIONavigatio
 - (void)ttsReassuranceInstructionWithEnabled:(BOOL)enabled;
 - (void)ttsReassuranceInstructionWithDistance:(double)distance;
 - (void)ttsSoonUpdateThresholdWithThresholdMeters:(double)thresholdMeters;
-@property (nonatomic, strong) PIORoute * _Nullable route;
-@property (nonatomic) NSInteger routeLastNodeIndex;
+@property (nonatomic, readonly, strong) PIORoute * _Nullable route;
+@property (nonatomic, readonly) NSInteger routeLastNodeIndex;
 @property (nonatomic, copy) NSArray<ProximiioGeoJSON *> * _Nonnull remainingRoute;
 @property (nonatomic, copy) NSArray<ProximiioGeoJSON *> * _Nonnull completedRoute;
 @property (nonatomic, strong) ProximiioPointOnLine * _Nullable closestPointToRoute;
@@ -489,8 +489,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) PIONavigatio
 - (void)routeCalculateWithRouteConfiguration:(PIORouteConfiguration * _Nonnull)routeConfiguration callback:(void (^ _Nonnull)(PIORoute * _Nullable))callback;
 - (void)routeFindWithRouteConfiguration:(PIORouteConfiguration * _Nonnull)routeConfiguration previewRoute:(BOOL)previewRoute startRoute:(BOOL)startRoute callback:(void (^ _Nonnull)(PIORoute * _Nullable))callback isReRouting:(BOOL)isReRouting;
 - (void)routeCancelWithSilent:(BOOL)silent;
+- (void)set:(PIORoute * _Nonnull)route;
+- (void)cancelRoute;
 - (BOOL)routePreview SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)routeStart SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)routeStart;
 - (void)processUserLocation:(CLLocationCoordinate2D)position force:(BOOL)force;
 - (void)updateUserLevelWithLevel:(NSInteger)level;
 @end
@@ -658,10 +660,11 @@ typedef SWIFT_ENUM(NSInteger, PIORouteUpdateType, open) {
   PIORouteUpdateTypeCanceled = 3,
   PIORouteUpdateTypeFinished = 4,
   PIORouteUpdateTypeOsrmNetworkError = 5,
-  PIORouteUpdateTypeNew = 6,
-  PIORouteUpdateTypeUpdate = 7,
-  PIORouteUpdateTypeSoon = 8,
-  PIORouteUpdateTypeImmediate = 9,
+  PIORouteUpdateTypeCanceledWrongWay = 6,
+  PIORouteUpdateTypeNew = 7,
+  PIORouteUpdateTypeUpdate = 8,
+  PIORouteUpdateTypeSoon = 9,
+  PIORouteUpdateTypeImmediate = 10,
 };
 
 

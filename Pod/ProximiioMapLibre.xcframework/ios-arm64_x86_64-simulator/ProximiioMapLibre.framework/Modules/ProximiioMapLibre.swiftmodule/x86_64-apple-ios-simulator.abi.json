@@ -15774,22 +15774,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "ProximiioMapLibre.PIONavigation?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PIONavigation",
-                    "printedName": "ProximiioMapLibre.PIONavigation",
-                    "usr": "c:@M@ProximiioMapLibre@objc(cs)PIONavigation"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "PIONavigation",
+                "printedName": "ProximiioMapLibre.PIONavigation",
+                "usr": "c:@M@ProximiioMapLibre@objc(cs)PIONavigation"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17ProximiioMapLibreAAC10navigationAA13PIONavigationCSgvp",
-            "mangledName": "$s17ProximiioMapLibreAAC10navigationAA13PIONavigationCSgvp",
+            "usr": "s:17ProximiioMapLibreAAC10navigationAA13PIONavigationCvp",
+            "mangledName": "$s17ProximiioMapLibreAAC10navigationAA13PIONavigationCvp",
             "moduleName": "ProximiioMapLibre",
             "declAttributes": [
               "Final",
@@ -15803,22 +15795,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "ProximiioMapLibre.PIONavigation?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PIONavigation",
-                        "printedName": "ProximiioMapLibre.PIONavigation",
-                        "usr": "c:@M@ProximiioMapLibre@objc(cs)PIONavigation"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "PIONavigation",
+                    "printedName": "ProximiioMapLibre.PIONavigation",
+                    "usr": "c:@M@ProximiioMapLibre@objc(cs)PIONavigation"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17ProximiioMapLibreAAC10navigationAA13PIONavigationCSgvg",
-                "mangledName": "$s17ProximiioMapLibreAAC10navigationAA13PIONavigationCSgvg",
+                "usr": "s:17ProximiioMapLibreAAC10navigationAA13PIONavigationCvg",
+                "mangledName": "$s17ProximiioMapLibreAAC10navigationAA13PIONavigationCvg",
                 "moduleName": "ProximiioMapLibre",
                 "declAttributes": [
                   "Final"
@@ -22738,6 +22722,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
+              "SetterAccess",
               "AccessControl",
               "ObjC"
             ],
@@ -22772,59 +22757,6 @@
                   "ObjC"
                 ],
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "ProximiioMapLibre.PIORoute?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PIORoute",
-                        "printedName": "ProximiioMapLibre.PIORoute",
-                        "usr": "c:@M@ProximiioMapLibre@objc(cs)PIORoute"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@ProximiioMapLibre@objc(cs)PIONavigation(im)setRoute:",
-                "mangledName": "$s17ProximiioMapLibre13PIONavigationC5routeAA8PIORouteCSgvs",
-                "moduleName": "ProximiioMapLibre",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ProximiioMapLibre13PIONavigationC5routeAA8PIORouteCSgvM",
-                "mangledName": "$s17ProximiioMapLibre13PIONavigationC5routeAA8PIORouteCSgvM",
-                "moduleName": "ProximiioMapLibre",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -22847,6 +22779,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
+              "SetterAccess",
               "AccessControl",
               "ObjC"
             ],
@@ -22873,51 +22806,6 @@
                   "ObjC"
                 ],
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@ProximiioMapLibre@objc(cs)PIONavigation(im)setRouteLastNodeIndex:",
-                "mangledName": "$s17ProximiioMapLibre13PIONavigationC18routeLastNodeIndexSivs",
-                "moduleName": "ProximiioMapLibre",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ProximiioMapLibre13PIONavigationC18routeLastNodeIndexSivM",
-                "mangledName": "$s17ProximiioMapLibre13PIONavigationC18routeLastNodeIndexSivM",
-                "moduleName": "ProximiioMapLibre",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -23626,6 +23514,54 @@
           },
           {
             "kind": "Function",
+            "name": "set",
+            "printedName": "set(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PIORoute",
+                "printedName": "ProximiioMapLibre.PIORoute",
+                "usr": "c:@M@ProximiioMapLibre@objc(cs)PIORoute"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ProximiioMapLibre@objc(cs)PIONavigation(im)set:",
+            "mangledName": "$s17ProximiioMapLibre13PIONavigationC3setyyAA8PIORouteCF",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cancelRoute",
+            "printedName": "cancelRoute()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ProximiioMapLibre@objc(cs)PIONavigation(im)cancelRoute",
+            "mangledName": "$s17ProximiioMapLibre13PIONavigationC11cancelRouteyyF",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "routePreview",
             "printedName": "routePreview()",
             "children": [
@@ -23666,7 +23602,8 @@
             "objc_name": "routeStart",
             "declAttributes": [
               "ObjC",
-              "AccessControl"
+              "AccessControl",
+              "DiscardableResult"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -23728,6 +23665,26 @@
             "objc_name": "updateUserLevelWithLevel:",
             "declAttributes": [
               "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearRouteData",
+            "printedName": "clearRouteData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ProximiioMapLibre13PIONavigationC14clearRouteDatayyF",
+            "mangledName": "$s17ProximiioMapLibre13PIONavigationC14clearRouteDatayyF",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -28622,6 +28579,47 @@
           },
           {
             "kind": "Var",
+            "name": "canceledWrongWay",
+            "printedName": "canceledWrongWay",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ProximiioMapLibre.PIORouteUpdateType.Type) -> ProximiioMapLibre.PIORouteUpdateType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PIORouteUpdateType",
+                    "printedName": "ProximiioMapLibre.PIORouteUpdateType",
+                    "usr": "c:@M@ProximiioMapLibre@E@PIORouteUpdateType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ProximiioMapLibre.PIORouteUpdateType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PIORouteUpdateType",
+                        "printedName": "ProximiioMapLibre.PIORouteUpdateType",
+                        "usr": "c:@M@ProximiioMapLibre@E@PIORouteUpdateType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@ProximiioMapLibre@E@PIORouteUpdateType@PIORouteUpdateTypeCanceledWrongWay",
+            "mangledName": "$s17ProximiioMapLibre18PIORouteUpdateTypeO16canceledWrongWayyA2CmF",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 6
+          },
+          {
+            "kind": "Var",
             "name": "new",
             "printedName": "new",
             "children": [
@@ -28660,7 +28658,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 6
+            "fixedbinaryorder": 7
           },
           {
             "kind": "Var",
@@ -28702,7 +28700,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 7
+            "fixedbinaryorder": 8
           },
           {
             "kind": "Var",
@@ -28744,7 +28742,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 8
+            "fixedbinaryorder": 9
           },
           {
             "kind": "Var",
@@ -28786,7 +28784,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 9
+            "fixedbinaryorder": 10
           },
           {
             "kind": "Constructor",
@@ -31968,7 +31966,7 @@
       "kind": "IntegerLiteral",
       "offset": 555,
       "length": 1,
-      "value": "3"
+      "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceHeadingCorrectionManager.swift",
@@ -32057,14 +32055,14 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
       "kind": "BooleanLiteral",
-      "offset": 4924,
+      "offset": 4969,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidance.swift",
       "kind": "BooleanLiteral",
-      "offset": 8978,
+      "offset": 9025,
       "length": 5,
       "value": "false"
     },
@@ -32645,70 +32643,70 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "Array",
-      "offset": 4370,
+      "offset": 4362,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 4485,
+      "offset": 4477,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 26438,
+      "offset": 26439,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 26465,
+      "offset": 26466,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 29326,
+      "offset": 29360,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 29347,
+      "offset": 29381,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 30046,
+      "offset": 30080,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 30067,
+      "offset": 30101,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 30616,
+      "offset": 30650,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 30637,
+      "offset": 30671,
       "length": 4,
       "value": "true"
     },
@@ -32876,14 +32874,14 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "BooleanLiteral",
-      "offset": 34579,
+      "offset": 34830,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "BooleanLiteral",
-      "offset": 34767,
+      "offset": 35018,
       "length": 4,
       "value": "true"
     },
@@ -32995,63 +32993,63 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 5170,
+      "offset": 5189,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 5242,
+      "offset": 5261,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 5320,
+      "offset": 5339,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 5355,
+      "offset": 5374,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 5425,
+      "offset": 5444,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 5539,
+      "offset": 5558,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 8596,
+      "offset": 8615,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 11304,
+      "offset": 11323,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTTS.swift",
       "kind": "BooleanLiteral",
-      "offset": 11325,
+      "offset": 11344,
       "length": 5,
       "value": "false"
     },
@@ -33366,49 +33364,49 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "IntegerLiteral",
-      "offset": 6145,
+      "offset": 6171,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 6616,
+      "offset": 6642,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 6652,
+      "offset": 6678,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 6693,
+      "offset": 6719,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "IntegerLiteral",
-      "offset": 6773,
+      "offset": 6799,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 7416,
+      "offset": 7442,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Navigation\/PIONavigation.swift",
       "kind": "BooleanLiteral",
-      "offset": 9814,
+      "offset": 9840,
       "length": 5,
       "value": "false"
     },
@@ -33471,30 +33469,37 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
-      "offset": 326,
-      "length": 3,
+      "offset": 301,
+      "length": 16,
       "value": "6"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
-      "offset": 331,
-      "length": 6,
+      "offset": 344,
+      "length": 3,
       "value": "7"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
-      "offset": 339,
-      "length": 4,
+      "offset": 349,
+      "length": 6,
       "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
-      "offset": 345,
-      "length": 9,
+      "offset": 357,
+      "length": 4,
       "value": "9"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 9,
+      "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
@@ -33534,30 +33539,37 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
-      "offset": 326,
-      "length": 3,
+      "offset": 301,
+      "length": 16,
       "value": "6"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
-      "offset": 331,
-      "length": 6,
+      "offset": 344,
+      "length": 3,
       "value": "7"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
-      "offset": 339,
-      "length": 4,
+      "offset": 349,
+      "length": 6,
       "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
       "kind": "IntegerLiteral",
-      "offset": 345,
-      "length": 9,
+      "offset": 357,
+      "length": 4,
       "value": "9"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteUpdateType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 9,
+      "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/Data\/PIORouteStep.swift",

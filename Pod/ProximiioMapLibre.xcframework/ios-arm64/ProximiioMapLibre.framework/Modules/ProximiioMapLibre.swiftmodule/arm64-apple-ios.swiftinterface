@@ -441,7 +441,7 @@ extension PIOTurfRing {
   }
   @objc final public var database: PIODatabase
   @objc final public var customOSRMPath: String?
-  final public var navigation: PIONavigation? {
+  final public var navigation: PIONavigation {
     get
   }
   @objc final public var followingUser: Swift.Bool {
@@ -661,10 +661,11 @@ extension AVSpeechUtterance {
   @objc public func ttsReassuranceInstruction(enabled: Bool)
   @objc public func ttsReassuranceInstruction(distance: Double)
   @objc public func ttsSoonUpdateThreshold(thresholdMeters: Double)
-  @objc public var route: PIORoute?
+  @objc public var route: PIORoute? {
+    get
+  }
   @objc public var routeLastNodeIndex: Swift.Int {
     @objc get
-    @objc set
   }
   @objc public var remainingRoute: [ProximiioGeoJSON]
   @objc public var completedRoute: [ProximiioGeoJSON]
@@ -674,10 +675,14 @@ extension AVSpeechUtterance {
   @objc public func routeCalculate(routeConfiguration: PIORouteConfiguration, callback: @escaping ((PIORoute?) -> Void))
   @objc public func routeFind(routeConfiguration: PIORouteConfiguration, previewRoute: Bool, startRoute: Bool, callback: @escaping ((PIORoute?) -> Void), isReRouting: Bool = false)
   @objc public func routeCancel(silent: Bool = false)
+  @objc public func set(_ route: PIORoute)
+  @objc public func cancelRoute()
   @objc public func routePreview() -> Bool
+  @discardableResult
   @objc public func routeStart() -> Bool
   @objc public func processUserLocation(_ position: CLLocationCoordinate2D, force: Bool)
   @objc public func updateUserLevel(level: Int)
+  public func clearRouteData()
   @objc deinit
 }
 extension PIONavigation {
@@ -789,7 +794,7 @@ extension PIONavigation {
   @objc func onLandmarkExit(_ landmark: [ProximiioGeoJSON])
 }
 @objc public enum PIORouteUpdateType : Int {
-  case calculating, recalculating, routeNotfound, canceled, finished, osrmNetworkError
+  case calculating, recalculating, routeNotfound, canceled, finished, osrmNetworkError, canceledWrongWay
   case new, update, soon, immediate
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int

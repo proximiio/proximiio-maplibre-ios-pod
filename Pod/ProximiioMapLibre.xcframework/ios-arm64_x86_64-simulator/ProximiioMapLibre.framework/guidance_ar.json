@@ -58,6 +58,8 @@
     "heading_correction": "صَحِحْ مَسارَكْ إلى الساعَة {{hours}}",
     "heading_start": "إبْدَء مَسارَكْ بالإتِجَاه إلى السَاعَة {{hours}}",
     "heading_wrong_way": "إسْتَدِرْ، أنْتَ تَمْشي بالإتِجَاهْ الخَاطِئ",
+    "please_return_route": : "يرجى العودة إلى المسار المحدد",
+    "cancel_wrong_way":  "أنت لا تتبع المسار المحدد. يرجى البحث عن مسار جديد لضمان رحلة آمنة.",
     "exit_levelchanger_elevator": "{{nextStepDirection}}",
     "exit_levelchanger_escalator": "{{nextStepDirection}}",
     "exit_levelchanger_stairs": " {{nextStepDirection}}",

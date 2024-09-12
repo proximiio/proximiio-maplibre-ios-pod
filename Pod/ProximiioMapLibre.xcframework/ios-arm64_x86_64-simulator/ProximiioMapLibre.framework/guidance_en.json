@@ -57,6 +57,8 @@
     "heading_correction": "Correct your heading to {{hours}} o'clock",
     "heading_start": "Start route at your {{hours}} o'clock.",
     "heading_wrong_way": "You are walking wrong way. Turn around.",
+    "please_return_route": "Please return to the calculated route.",
+    "cancel_wrong_way": "You are not following the calculated route. Please search for a new route to ensure safe journey.",
     "exit_levelchanger_elevator": "{{nextStepDirection}}.",
     "exit_levelchanger_escalator": "{{nextStepDirection}}.",
     "exit_levelchanger_stairs": "{{nextStepDirection}}.",
