@@ -32853,35 +32853,35 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "BooleanLiteral",
-      "offset": 854,
+      "offset": 804,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "Dictionary",
-      "offset": 915,
+      "offset": 865,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1837,
+      "offset": 1787,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "BooleanLiteral",
-      "offset": 34830,
+      "offset": 35009,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "BooleanLiteral",
-      "offset": 35018,
+      "offset": 35197,
       "length": 4,
       "value": "true"
     },
