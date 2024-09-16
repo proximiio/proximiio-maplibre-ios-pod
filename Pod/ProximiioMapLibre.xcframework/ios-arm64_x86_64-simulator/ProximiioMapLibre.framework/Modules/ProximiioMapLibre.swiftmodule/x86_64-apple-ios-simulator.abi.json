@@ -16,6 +16,574 @@
       },
       {
         "kind": "Import",
+        "name": "Mapbox",
+        "printedName": "Mapbox",
+        "declKind": "Import",
+        "moduleName": "ProximiioMapLibre"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PIOAnnotation",
+        "printedName": "PIOAnnotation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "level",
+            "printedName": "level",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre13PIOAnnotationC5levelSivp",
+            "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5levelSivp",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre13PIOAnnotationC5levelSivg",
+                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5levelSivg",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre13PIOAnnotationC5levelSivs",
+                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5levelSivs",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre13PIOAnnotationC5levelSivM",
+                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5levelSivM",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre13PIOAnnotationC5imageSo7UIImageCvp",
+            "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5imageSo7UIImageCvp",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre13PIOAnnotationC5imageSo7UIImageCvg",
+                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5imageSo7UIImageCvg",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre13PIOAnnotationC5imageSo7UIImageCvs",
+                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5imageSo7UIImageCvs",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre13PIOAnnotationC5imageSo7UIImageCvM",
+                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5imageSo7UIImageCvM",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isHidden",
+            "printedName": "isHidden",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre13PIOAnnotationC8isHiddenSbvp",
+            "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC8isHiddenSbvp",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre13PIOAnnotationC8isHiddenSbvg",
+                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC8isHiddenSbvg",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre13PIOAnnotationC8isHiddenSbvs",
+                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC8isHiddenSbvs",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre13PIOAnnotationC8isHiddenSbvM",
+                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC8isHiddenSbvM",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onTap",
+            "printedName": "onTap",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((ProximiioMapLibre.PIOAnnotation) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ProximiioMapLibre.PIOAnnotation) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PIOAnnotation",
+                        "printedName": "ProximiioMapLibre.PIOAnnotation",
+                        "usr": "c:@M@ProximiioMapLibre@objc(cs)PIOAnnotation"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ProximiioMapLibre13PIOAnnotationC5onTapyACcSgvp",
+            "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5onTapyACcSgvp",
+            "moduleName": "ProximiioMapLibre",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((ProximiioMapLibre.PIOAnnotation) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ProximiioMapLibre.PIOAnnotation) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PIOAnnotation",
+                            "printedName": "ProximiioMapLibre.PIOAnnotation",
+                            "usr": "c:@M@ProximiioMapLibre@objc(cs)PIOAnnotation"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre13PIOAnnotationC5onTapyACcSgvg",
+                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5onTapyACcSgvg",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((ProximiioMapLibre.PIOAnnotation) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ProximiioMapLibre.PIOAnnotation) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PIOAnnotation",
+                            "printedName": "ProximiioMapLibre.PIOAnnotation",
+                            "usr": "c:@M@ProximiioMapLibre@objc(cs)PIOAnnotation"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre13PIOAnnotationC5onTapyACcSgvs",
+                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5onTapyACcSgvs",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ProximiioMapLibre13PIOAnnotationC5onTapyACcSgvM",
+                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5onTapyACcSgvM",
+                "moduleName": "ProximiioMapLibre",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PIOAnnotation",
+                "printedName": "ProximiioMapLibre.PIOAnnotation",
+                "usr": "c:@M@ProximiioMapLibre@objc(cs)PIOAnnotation"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ProximiioMapLibre@objc(cs)PIOAnnotation(im)init",
+            "mangledName": "$s17ProximiioMapLibre13PIOAnnotationCACycfc",
+            "moduleName": "ProximiioMapLibre",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ProximiioMapLibre.PIOAnnotation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PIOAnnotation",
+                    "printedName": "ProximiioMapLibre.PIOAnnotation",
+                    "usr": "c:@M@ProximiioMapLibre@objc(cs)PIOAnnotation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ProximiioMapLibre@objc(cs)PIOAnnotation(im)initWithCoder:",
+            "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "ProximiioMapLibre",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ProximiioMapLibre@objc(cs)PIOAnnotation",
+        "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC",
+        "moduleName": "ProximiioMapLibre",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)MGLPointAnnotation",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Mapbox.MGLPointAnnotation",
+          "Mapbox.MGLShape",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MustacheBoxable",
+            "printedName": "MustacheBoxable",
+            "usr": "s:8Mustache0A7BoxableP",
+            "mangledName": "$s8Mustache0A7BoxableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ProximiioMapLibre",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Proximiio",
         "printedName": "Proximiio",
         "declKind": "Import",
@@ -3478,574 +4046,6 @@
         "superclassUsr": "c:objc(cs)NSObject",
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "MustacheBoxable",
-            "printedName": "MustacheBoxable",
-            "usr": "s:8Mustache0A7BoxableP",
-            "mangledName": "$s8Mustache0A7BoxableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ProximiioMapLibre",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Mapbox",
-        "printedName": "Mapbox",
-        "declKind": "Import",
-        "moduleName": "ProximiioMapLibre"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "PIOAnnotation",
-        "printedName": "PIOAnnotation",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "level",
-            "printedName": "level",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17ProximiioMapLibre13PIOAnnotationC5levelSivp",
-            "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5levelSivp",
-            "moduleName": "ProximiioMapLibre",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ProximiioMapLibre13PIOAnnotationC5levelSivg",
-                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5levelSivg",
-                "moduleName": "ProximiioMapLibre",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ProximiioMapLibre13PIOAnnotationC5levelSivs",
-                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5levelSivs",
-                "moduleName": "ProximiioMapLibre",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ProximiioMapLibre13PIOAnnotationC5levelSivM",
-                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5levelSivM",
-                "moduleName": "ProximiioMapLibre",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "image",
-            "printedName": "image",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17ProximiioMapLibre13PIOAnnotationC5imageSo7UIImageCvp",
-            "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5imageSo7UIImageCvp",
-            "moduleName": "ProximiioMapLibre",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ProximiioMapLibre13PIOAnnotationC5imageSo7UIImageCvg",
-                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5imageSo7UIImageCvg",
-                "moduleName": "ProximiioMapLibre",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ProximiioMapLibre13PIOAnnotationC5imageSo7UIImageCvs",
-                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5imageSo7UIImageCvs",
-                "moduleName": "ProximiioMapLibre",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ProximiioMapLibre13PIOAnnotationC5imageSo7UIImageCvM",
-                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5imageSo7UIImageCvM",
-                "moduleName": "ProximiioMapLibre",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "isHidden",
-            "printedName": "isHidden",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17ProximiioMapLibre13PIOAnnotationC8isHiddenSbvp",
-            "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC8isHiddenSbvp",
-            "moduleName": "ProximiioMapLibre",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ProximiioMapLibre13PIOAnnotationC8isHiddenSbvg",
-                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC8isHiddenSbvg",
-                "moduleName": "ProximiioMapLibre",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ProximiioMapLibre13PIOAnnotationC8isHiddenSbvs",
-                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC8isHiddenSbvs",
-                "moduleName": "ProximiioMapLibre",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ProximiioMapLibre13PIOAnnotationC8isHiddenSbvM",
-                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC8isHiddenSbvM",
-                "moduleName": "ProximiioMapLibre",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "onTap",
-            "printedName": "onTap",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((ProximiioMapLibre.PIOAnnotation) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(ProximiioMapLibre.PIOAnnotation) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PIOAnnotation",
-                        "printedName": "ProximiioMapLibre.PIOAnnotation",
-                        "usr": "c:@M@ProximiioMapLibre@objc(cs)PIOAnnotation"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17ProximiioMapLibre13PIOAnnotationC5onTapyACcSgvp",
-            "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5onTapyACcSgvp",
-            "moduleName": "ProximiioMapLibre",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "((ProximiioMapLibre.PIOAnnotation) -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(ProximiioMapLibre.PIOAnnotation) -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "PIOAnnotation",
-                            "printedName": "ProximiioMapLibre.PIOAnnotation",
-                            "usr": "c:@M@ProximiioMapLibre@objc(cs)PIOAnnotation"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ProximiioMapLibre13PIOAnnotationC5onTapyACcSgvg",
-                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5onTapyACcSgvg",
-                "moduleName": "ProximiioMapLibre",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "((ProximiioMapLibre.PIOAnnotation) -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(ProximiioMapLibre.PIOAnnotation) -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "PIOAnnotation",
-                            "printedName": "ProximiioMapLibre.PIOAnnotation",
-                            "usr": "c:@M@ProximiioMapLibre@objc(cs)PIOAnnotation"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ProximiioMapLibre13PIOAnnotationC5onTapyACcSgvs",
-                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5onTapyACcSgvs",
-                "moduleName": "ProximiioMapLibre",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ProximiioMapLibre13PIOAnnotationC5onTapyACcSgvM",
-                "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5onTapyACcSgvM",
-                "moduleName": "ProximiioMapLibre",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PIOAnnotation",
-                "printedName": "ProximiioMapLibre.PIOAnnotation",
-                "usr": "c:@M@ProximiioMapLibre@objc(cs)PIOAnnotation"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@ProximiioMapLibre@objc(cs)PIOAnnotation(im)init",
-            "mangledName": "$s17ProximiioMapLibre13PIOAnnotationCACycfc",
-            "moduleName": "ProximiioMapLibre",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(coder:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "ProximiioMapLibre.PIOAnnotation?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PIOAnnotation",
-                    "printedName": "ProximiioMapLibre.PIOAnnotation",
-                    "usr": "c:@M@ProximiioMapLibre@objc(cs)PIOAnnotation"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSCoder",
-                "printedName": "Foundation.NSCoder",
-                "usr": "c:objc(cs)NSCoder"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@ProximiioMapLibre@objc(cs)PIOAnnotation(im)initWithCoder:",
-            "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC5coderACSgSo7NSCoderC_tcfc",
-            "moduleName": "ProximiioMapLibre",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithCoder:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Required"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@ProximiioMapLibre@objc(cs)PIOAnnotation",
-        "mangledName": "$s17ProximiioMapLibre13PIOAnnotationC",
-        "moduleName": "ProximiioMapLibre",
-        "isOpen": true,
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)MGLPointAnnotation",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "Mapbox.MGLPointAnnotation",
-          "Mapbox.MGLShape",
           "ObjectiveC.NSObject"
         ],
         "conformances": [
@@ -31556,6 +31556,20 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOAnnotation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 244,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOAnnotation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 305,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Routing\/PIORoute.swift",
       "kind": "Array",
       "offset": 276,
@@ -31825,20 +31839,6 @@
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Telemetry\/PIOTelemetry.swift",
       "kind": "BooleanLiteral",
       "offset": 497,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOAnnotation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 244,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Utils\/PIOAnnotation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 305,
       "length": 5,
       "value": "false"
     },
@@ -32657,56 +32657,56 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 26439,
+      "offset": 26405,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 26466,
+      "offset": 26432,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 29360,
+      "offset": 29326,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 29381,
+      "offset": 29347,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 30080,
+      "offset": 30046,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 30101,
+      "offset": 30067,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "IntegerLiteral",
-      "offset": 30650,
+      "offset": 30616,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/ProximiioMapLibre.swift",
       "kind": "BooleanLiteral",
-      "offset": 30671,
+      "offset": 30637,
       "length": 4,
       "value": "true"
     },
@@ -32853,35 +32853,35 @@
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "BooleanLiteral",
-      "offset": 804,
+      "offset": 760,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "Dictionary",
-      "offset": 865,
+      "offset": 821,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1787,
+      "offset": 1743,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "BooleanLiteral",
-      "offset": 35009,
+      "offset": 34461,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/proximiio-mapbox-ios\/proximiio-mapbox-ios\/source\/ProximiioMapLibre\/Guidance\/PIOGuidanceTextGenerator.swift",
       "kind": "BooleanLiteral",
-      "offset": 35197,
+      "offset": 34649,
       "length": 4,
       "value": "true"
     },

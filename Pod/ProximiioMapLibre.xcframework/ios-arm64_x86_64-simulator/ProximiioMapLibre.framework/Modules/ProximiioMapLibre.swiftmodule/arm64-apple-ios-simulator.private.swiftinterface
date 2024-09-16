@@ -21,6 +21,15 @@ import SystemConfiguration
 import UIKit
 import _Concurrency
 import _StringProcessing
+@objc @_inheritsConvenienceInitializers open class PIOAnnotation : MGLPointAnnotation {
+  public var level: Swift.Int
+  public var image: UIKit.UIImage
+  public var isHidden: Swift.Bool
+  public var onTap: ((PIOAnnotation) -> Void)?
+  @objc override dynamic public init()
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class PIODatabase : NSObject {
   @objc public class func sharedInstance() -> PIODatabase
   @objc public func amenities() -> [ProximiioAmenity]
@@ -178,15 +187,6 @@ extension CLLocationCoordinate2D {
 @_inheritsConvenienceInitializers @objc public class PIOTelemetry : NSObject {
   @objc public var isActive: Swift.Bool
   @objc override dynamic public init()
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers open class PIOAnnotation : MGLPointAnnotation {
-  public var level: Swift.Int
-  public var image: UIKit.UIImage
-  public var isHidden: Swift.Bool
-  public var onTap: ((PIOAnnotation) -> Void)?
-  @objc override dynamic public init()
-  @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class PIOTurf {

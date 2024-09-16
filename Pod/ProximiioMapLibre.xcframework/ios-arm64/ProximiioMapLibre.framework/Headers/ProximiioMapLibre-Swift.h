@@ -708,7 +708,6 @@ SWIFT_CLASS("_TtC17ProximiioMapLibre17PIOUnitConversion")
 @end
 
 
-
 @interface PIOUnitConversion (SWIFT_EXTENSION(ProximiioMapLibre))
 @end
 
@@ -733,6 +732,7 @@ SWIFT_CLASS("_TtCC17ProximiioMapLibre17PIOUnitConversion9UnitStage")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 
@@ -843,20 +843,20 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ProximiioMap
 
 
 @interface ProximiioMapLibre (SWIFT_EXTENSION(ProximiioMapLibre))
-- (void)routeCalculateWithConfiguration:(PIORouteConfiguration * _Nonnull)configuration callback:(void (^ _Nonnull)(PIORoute * _Nullable))callback;
-- (void)routeFindWithConfiguration:(PIORouteConfiguration * _Nonnull)configuration callback:(void (^ _Nonnull)(PIORoute * _Nullable))callback;
-- (void)routeFindAndPreviewWithConfiguration:(PIORouteConfiguration * _Nonnull)configuration callback:(void (^ _Nonnull)(PIORoute * _Nullable))callback;
-- (void)routeFindAndStartWithConfiguration:(PIORouteConfiguration * _Nonnull)configuration callback:(void (^ _Nonnull)(PIORoute * _Nullable))callback;
-- (void)navigateWithConfiguration:(PIORouteConfiguration * _Nonnull)configuration preview:(BOOL)preview start:(BOOL)start callback:(void (^ _Nonnull)(PIORoute * _Nullable))callback;
-@end
-
-
-@interface ProximiioMapLibre (SWIFT_EXTENSION(ProximiioMapLibre))
 - (void)routeStart:(PIORoute * _Nullable)route;
 - (void)routeCancelWithSilent:(BOOL)silent;
 - (void)routeRender:(PIORoute * _Nullable)route source:(NSString * _Nonnull)source clear:(BOOL)clear isAlternate:(BOOL)isAlternate;
 - (void)routePreview:(PIORoute * _Nullable)route;
 - (void)repeatLastInstruction;
+@end
+
+
+@interface ProximiioMapLibre (SWIFT_EXTENSION(ProximiioMapLibre))
+- (void)routeCalculateWithConfiguration:(PIORouteConfiguration * _Nonnull)configuration callback:(void (^ _Nonnull)(PIORoute * _Nullable))callback;
+- (void)routeFindWithConfiguration:(PIORouteConfiguration * _Nonnull)configuration callback:(void (^ _Nonnull)(PIORoute * _Nullable))callback;
+- (void)routeFindAndPreviewWithConfiguration:(PIORouteConfiguration * _Nonnull)configuration callback:(void (^ _Nonnull)(PIORoute * _Nullable))callback;
+- (void)routeFindAndStartWithConfiguration:(PIORouteConfiguration * _Nonnull)configuration callback:(void (^ _Nonnull)(PIORoute * _Nullable))callback;
+- (void)navigateWithConfiguration:(PIORouteConfiguration * _Nonnull)configuration preview:(BOOL)preview start:(BOOL)start callback:(void (^ _Nonnull)(PIORoute * _Nullable))callback;
 @end
 
 typedef SWIFT_ENUM(NSInteger, ProximiioMapLibreAuthorizationResult, open) {
