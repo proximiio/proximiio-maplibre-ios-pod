@@ -201,6 +201,7 @@ extension PIOTurf {
   public var wrongWayThresholdMeters: Swift.Double
   public var wrongWayCancelRouteAfter: Swift.Int
   public var wrongWayCancelRouteEnabled: Swift.Bool
+  public var wrongWayMessage: Swift.String
   public var callback: PIOHeadingCorrectionCallback?
   public var lastHeading: CLHeading?
   public var wrongDirectionCount: Swift.Int {
@@ -272,6 +273,7 @@ extension PIOGuidance {
   public func ttsHeadingCorrectionThresholds(thresholdMeters: Double)
   public func ttsHeadingCorrectionWrongWayCancel(after: Int)
   public func ttsHeadingCorrectionWrongWayCancel(enabled: Bool)
+  public func ttsHeadingCorrectionWrongWayCancel(message: String)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class PIOHeading : NSObject {
@@ -656,6 +658,7 @@ extension AVSpeechUtterance {
   @objc public func ttsHeadingCorrectionThreshold(meters: Double)
   @objc public func ttsHeadingCorrectionWrongWayCancel(after: Int)
   @objc public func ttsHeadingCorrectionWrongWayCancel(enabled: Bool)
+  @objc public func ttsHeadingCorrectionWrongWayCancel(message: String)
   @objc public func ttsMetadataKeys(indexes: [Int])
   @objc public func ttsRepeatLastInstruction()
   @objc public func ttsReassuranceInstruction(enabled: Bool)

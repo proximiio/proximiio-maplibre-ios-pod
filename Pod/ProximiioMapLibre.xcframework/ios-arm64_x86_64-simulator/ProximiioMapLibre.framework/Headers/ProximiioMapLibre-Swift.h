@@ -475,6 +475,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) PIONavigatio
 - (void)ttsHeadingCorrectionThresholdWithMeters:(double)meters;
 - (void)ttsHeadingCorrectionWrongWayCancelAfter:(NSInteger)after;
 - (void)ttsHeadingCorrectionWrongWayCancelWithEnabled:(BOOL)enabled;
+- (void)ttsHeadingCorrectionWrongWayCancelWithMessage:(NSString * _Nonnull)message;
 - (void)ttsMetadataKeysWithIndexes:(NSArray<NSNumber *> * _Nonnull)indexes;
 - (void)ttsRepeatLastInstruction;
 - (void)ttsReassuranceInstructionWithEnabled:(BOOL)enabled;
@@ -1414,6 +1415,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) PIONavigatio
 - (void)ttsHeadingCorrectionThresholdWithMeters:(double)meters;
 - (void)ttsHeadingCorrectionWrongWayCancelAfter:(NSInteger)after;
 - (void)ttsHeadingCorrectionWrongWayCancelWithEnabled:(BOOL)enabled;
+- (void)ttsHeadingCorrectionWrongWayCancelWithMessage:(NSString * _Nonnull)message;
 - (void)ttsMetadataKeysWithIndexes:(NSArray<NSNumber *> * _Nonnull)indexes;
 - (void)ttsRepeatLastInstruction;
 - (void)ttsReassuranceInstructionWithEnabled:(BOOL)enabled;
